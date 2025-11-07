@@ -1,26 +1,9 @@
-# Pro Analytics 02 Python Starter Repository
 
-> Use this repo to start a professional Python project.
 
-- Additional information: <https://github.com/denisecase/pro-analytics-02>
-- Project organization: [STRUCTURE](./STRUCTURE.md)
-- Build professional skills:
-  - **Environment Management**: Every project in isolation
-  - **Code Quality**: Automated checks for fewer bugs
-  - **Documentation**: Use modern project documentation tools
-  - **Testing**: Prove your code works
-  - **Version Control**: Collaborate professionally
-
----
 
 ## WORKFLOW 1. Set Up Your Machine
 
-Proper setup is critical.
-Complete each step in the following guide and verify carefully.
-
-- [SET UP MACHINE](./SET_UP_MACHINE.md)
-
----
+Followed the correct steps to set up machine. Most of it was already set up from projects in a previous class. 
 
 ## WORKFLOW 2. Set Up Your Project
 
@@ -45,30 +28,10 @@ uv run python --version
 .\.venv\Scripts\activate
 ```
 
-**macOS / Linux / WSL:**
 
-```shell
-source .venv/bin/activate
-```
-
----
-
-## WORKFLOW 3. Daily Workflow
-
-Please ensure that the prior steps have been verified before continuing.
-When working on a project, we open just that project in VS Code.
-
-### 3.1 Git Pull from GitHub
-
-Always start with `git pull` to check for any changes made to the GitHub repo.
-
-```shell
-git pull
-```
 
 ### 3.2 Run Checks as You Work
 
-This mirrors real work where we typically:
 
 1. Update dependencies (for security and compatibility).
 2. Clean unused cached packages to free space.
@@ -106,13 +69,7 @@ For fully reproducible results, or when you need to use the local `.venv`, use `
 
 Make sure you have current doc dependencies, then build your docs, fix any errors, and serve them locally to test.
 
-```shell
-uv run mkdocs build --strict
-uv run mkdocs serve
-```
 
-- After running the serve command, the local URL of the docs will be provided. To open the site, press **CTRL and click** the provided link (at the same time) to view the documentation. On a Mac, use **CMD and click**.
-- Press **CTRL c** (at the same time) to stop the hosting process.
 
 ### 3.4 Execute
 
@@ -166,5 +123,7 @@ With a working version safe in GitHub, start making changes to the code.
 Before starting a new session, remember to do a `git pull` and keep your tools updated.
 
 Each time forward progress is made, remember to git add-commit-push.
+
+### 4 Add Raw Data 
 
 
