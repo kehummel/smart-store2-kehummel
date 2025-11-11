@@ -126,4 +126,13 @@ Each time forward progress is made, remember to git add-commit-push.
 
 ### 4 Add Raw Data 
 
+I added the raw data in csv files. 
+
+### 5 Add to the data
+
+I added errors to the data so that I could practice fixing them. 
+
+### 6 Prepare the data
+
+I followed the format for preparing the data. 
 

@@ -1,0 +1,101 @@
+ProductID,ProductName,Category,UnitPrice,StockQuantity,PurchaseType
+2000,Electronics-Be,Electronics,969.31,3,Online
+2001,Electronics-Be,Clothing,412.35,7,In Store
+2002,Office-Family,Clothing,866,16,Online
+2003,Electronics-Training,Clothing,385.18,5,In Store
+2004,Office-Where,Home,927.25,48213,In Store
+2005,Office-Huge,Home,428.78,6,Online
+2006,Office-Class,Clothing,198,2,In Store
+2007,Clothing-Over,Electronics,583.39,1,on
+2008,Electronics-Skin,Home,66.59,8,Online
+2009,Office-Raise,Clothing,66.31,4,In Store
+2010,Electronics-Themselves,Clothing,77.84,6,Online
+2011,Electronics-Religious,Clothing,409.74,5,Online
+2012,Clothing-Artist,Electronics,623.19,4,In Store
+2013,Office-Cultural,Home,935.36,,Online
+2014,Clothing-Eat,Home,246.3,8,In Store
+2015,Office-Itself,Clothing,674.97,7,In Store
+2016,Home-He,Office,323.02,6,in
+2017,Electronics-Feeling,Electronics,463.7,7,In Store
+2018,Electronics-Nature,Electronics,542.26,8,Online
+2019,Home-History,Clothing,933.93,3,In Store
+2020,Electronics-Share,Clothing,375.83,4,Online
+2021,Clothing-Skill,Office,835.41,9,In Store
+2022,Home-Economy,Electronics,671.18,3,Online
+2023,Home-Yeah,Electronics,939.54,7,In Store
+2024,Clothing-Paper,Home,124.27,16,In Store
+2025,Electronics-Assume,Clothing,279.62,5,In Store
+2026,Clothing-Use,Home,211.56,4,Online
+2027,Home-Purpose,Office,258.61,6,in store
+2028,Electronics-Take,Electronics,637.94,2,Online
+2029,Home-Yourself,Electronics,13.51,1,In Store
+2030,Clothing-First,Home,169.97,8,In Store
+2031,Office-Develop,Office,565.3,4,Online
+2032,Electronics-There,Electronics,945.6,6,Online
+2033,Clothing-Argue,Electronics,836.25,5,In Store
+2034,Clothing-Feel,Office,136.17,4,In Store
+2035,Home-According,Home,899.99,3,Online
+2036,Electronics-Candidate,Home,217.98,8,In Store
+2037,Clothing-Meeting,Electronics,360.14,7,Online
+2038,Office-Soon,Clothing,926.51,6.24,online
+2039,Clothing-Need,Clothing,976.44,7,Online
+2040,Clothing-Determine,Office,34.54,8,In Store
+2041,Home-Assume,Office,804.21,3,Online
+2042,Clothing-Lawyer,Home,167.61,4,Online
+2043,Electronics-Practice,Office,873.45,9,In Store
+2044,Office-Society,Clothing,207.58,3,In Store
+2045,Office-Next,Home,312.14,7,in store
+2046,Clothing-Worry,Clothing,33.43,16,In Store
+2047,Clothing-Hair,Office,334.98,5,In Store
+2048,Electronics-Candidate,Home,357.63,4,In Store
+2049,Office-Easy,Home,939.84,6,
+2050,Electronics-Young,Home,186.78,2,In Store
+2051,Home-Century,Electronics,117.32,1,Online
+2052,Office-Year,Home,731.26,8,Online
+2053,Home-Ground,Office,610.15,4,Online
+2054,Electronics-Above,Office,900.51,6,Online
+2055,Clothing-Politics,Home,53.94,5,Online
+2056,Office-About,Electronics,524.72,4,In Store
+2057,Clothing-Identify,Home,436.98,3,Online
+2058,Home-Wear,Home,666.75,8,In Store
+2059,Electronics-Clear,Home,512.05,7,In Store
+2060,Office-Term,Home,408.38,6,Online
+2061,Home-Quite,Clothing,199.92,7,In Store
+2062,Office-Receive,Clothing,619.36,8,Online
+2063,Home-Good,Office,552.46,3,Online
+2064,Electronics-Stop,Home,294.04,4,In Store
+2065,Office-Animal,Home,470.34,9,Online
+2066,Office-Occur,Clothing,516.06,3.98,Online
+2067,Clothing-Remain,Electronics,290.95,7,In Store
+2068,Home-Read,Electronics,820.24,16,onlie
+2069,Clothing-Garden,Home,232.39,5,In Store
+2070,Clothing-About,Clothing,34.18,4,In Store
+2071,Clothing-Success,Office,615.16,6,In Store
+2072,Electronics-Become,Office,420.3,2,In Store
+2073,Clothing-Executive,Office,499.43,1,Online
+2074,Clothing-Strong,Clothing,659.5,8,In Store
+2075,Electronics-Letter,Electronics,780.64,4,Online
+2076,Clothing-Affect,Clothing,806.07,6,In Store
+2077,Office-Ball,Electronics,561.83,5,Online
+2078,Electronics-Film,Office,142.01,4,In Store
+2079,Office-Who,Home,950.54,3,In Store
+2080,Office-Doctor,Office,832.26,8,In Store
+2081,Office-Light,Clothing,746.22,7,Online
+2082,Office-Figure,Office,266.6,6,In Store
+2083,Clothing-Cut,Home,768.16,,Online
+2084,Office-Stuff,Clothing,281.85,8,In Store
+2085,Electronics-Officer,Home,242.15,3,In Store
+2086,Home-Of,Home,894.1,4,Online
+2087,Electronics-Rather,Clothing,159.32,9,Online
+2088,Office-Evening,Clothing,709.35,3,
+2089,Electronics-Action,Office,413.52,7,In Store
+2090,Office-Staff,Office,71.64,16,Online
+2091,Office-Mrs,Office,905.79,5,In Store
+2092,Electronics-Add,Office,482.21,4,Online
+2093,Home-Real,Home,755.94,6,Online
+2094,Office-Fight,Clothing,493.35,2,Online
+2095,Home-Seem,Office,490.79,1,In Store
+2096,Office-Discuss,Home,672.18,8,Online
+2097,Office-Recent,Clothing,842.1,4,Online
+2098,Clothing-Trouble,Electronics,907.86,64782,In Store
+2099,Electronics-Several,Electronics,646.32,5,In Store

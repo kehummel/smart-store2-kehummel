@@ -49,3 +49,17 @@ stdev                   0.60
 2025-11-07 18:07:INFO    AT demo_module_viz.py:44: Loaded Penguins dataset successfully.
 2025-11-07 18:07:INFO    AT demo_module_viz.py:52: Displaying chart... Close the window to exit.
 2025-11-07 18:07:INFO    AT demo_module_viz.py:54: Chart closed successfully.
+2025-11-07 18:30:INFO    AT utils_logger.py:105: Logging to file: C:\Projects\BI_Repos\smart-store2-kehummel\project.log
+2025-11-07 18:30:INFO    AT data_prep.py:52: Starting data preparation...
+2025-11-07 18:30:INFO    AT data_prep.py:32: Reading raw data from C:\Projects\BI_Repos\smart-store2-kehummel\data\raw\customers_data.csv.
+2025-11-07 18:30:INFO    AT data_prep.py:35: customers_data.csv: loaded DataFrame with shape 201 rows x 4 cols
+2025-11-07 18:30:INFO    AT data_prep.py:32: Reading raw data from C:\Projects\BI_Repos\smart-store2-kehummel\data\raw\products_data.csv.
+2025-11-07 18:30:INFO    AT data_prep.py:35: products_data.csv: loaded DataFrame with shape 100 rows x 4 cols
+2025-11-07 18:30:INFO    AT data_prep.py:32: Reading raw data from C:\Projects\BI_Repos\smart-store2-kehummel\data\raw\sales_data.csv.
+2025-11-07 18:30:INFO    AT data_prep.py:35: sales_data.csv: loaded DataFrame with shape 2001 rows x 7 cols
+2025-11-07 18:30:INFO    AT data_prep.py:64: Data preparation complete.
+2025-11-10 14:13:INFO    AT utils_logger.py:105: Logging to file: C:\Projects\BI_Repos\smart-store2-kehummel\project.log
+2025-11-10 14:13:INFO    AT utils_logger.py:116: This is an example info message.
+2025-11-10 14:13:WARNING AT utils_logger.py:117: This is an example warning message.
+2025-11-10 14:13:ERROR   AT utils_logger.py:118: This is an example error message.
+2025-11-10 14:13:INFO    AT utils_logger.py:125: View the log output at C:\Projects\BI_Repos\smart-store2-kehummel\project.log
