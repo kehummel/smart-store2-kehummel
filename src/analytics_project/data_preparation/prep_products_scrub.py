@@ -37,8 +37,8 @@ from analytics_project.utils_scrubber import DataScrubber
 SCRIPTS_DATA_PREP_DIR: pathlib.Path = (
     pathlib.Path(__file__).resolve().parent
 )  # Directory of the current script
-SCRIPTS_DIR: pathlib.Path = SCRIPTS_DATA_PREP_DIR.parent  # analytics_project folder
-PROJECT_ROOT: pathlib.Path = SCRIPTS_DIR.parent  # src folder
+SCRIPTS_DIR: pathlib.Path = SCRIPTS_DATA_PREP_DIR.parent  # analytics project
+PROJECT_ROOT: pathlib.Path = SCRIPTS_DIR.parent  # scr
 DATA_DIR: pathlib.Path = PROJECT_ROOT / "data"
 RAW_DATA_DIR: pathlib.Path = DATA_DIR / "raw"
 PREPARED_DATA_DIR: pathlib.Path = DATA_DIR / "prepared"  # place to store prepared data
@@ -69,10 +69,6 @@ def read_raw_data(file_name: str) -> pd.DataFrame:
     logger.info(f"Reading data from {file_path}")
     df = pd.read_csv(file_path)
     logger.info(f"Loaded dataframe with {len(df)} rows and {len(df.columns)} columns")
-
-    # data type and information
-    logger.info(f"Column datatypes: \n{df.dtypes}")
-    logger.info(f"Number of unique values: \n{df.nunique()}")
 
     return df
 
@@ -106,12 +102,41 @@ def remove_duplicates(df: pd.DataFrame) -> pd.DataFrame:
     logger.info(f"FUNCTION START: remove_duplicates with dataframe shape={df.shape}")
     initial_count = len(df)
 
-    # Drop duplicates
-    df = df.drop_duplicates(subset=["ProductID"])
+    # Delegate to DataScrubber class
+    df_scrubber = DataScrubber(df)
 
-    removed_count = initial_count - len(df)
+    # Remove duplicates based on 'product_id'
+    df_deduped = df_scrubber.remove_duplicate_records()
+
+    removed_count = initial_count - len(df_deduped)
     logger.info(f"Removed {removed_count} duplicate rows")
-    logger.info(f"{len(df)} records remaining after removing duplicates.")
+    logger.info(f"{len(df_deduped)} records remaining after removing duplicates.")
+    return df_deduped
+
+
+def rename_columns(df: pd.DataFrame) -> pd.DataFrame:
+    # Change column names to match the standard formatting
+
+    logger.info("Function Start: rename_columns")
+
+    # Log columns BEFORE renaming
+    logger.info(f"Columns BEFORE renaming: {df.columns.tolist()}")
+
+    column_mapping = {
+        "ProductID": "product_id",
+        "ProductName": "product_name",
+        "Category": "category",
+        "UnitPrice": "unit_price",
+        "StockQuantity": "stock_quantity",
+        "PurchaseType": "purchase_type",
+    }
+
+    df = df.rename(columns=column_mapping)
+
+    # Log columns AFTER renaming
+    logger.info(f"Columns AFTER renaming: {df.columns.tolist()}")
+
+    logger.info("Function End: rename_columns")
     return df
 
 
@@ -133,17 +158,12 @@ def handle_missing_values(df: pd.DataFrame) -> pd.DataFrame:
     missing_by_col = df.isna().sum()
     logger.info(f"Missing values by column before handling:\n{missing_by_col}")
 
-    # TODO: OPTIONAL - We can implement appropriate missing value handling
-    # specific to our data.
-    # For example: Different strategies may be needed for different columns
-    # USE YOUR COLUMN NAMES - these are just examples
-    df["ProductID"] = df["ProductID"].fillna("Unknown Product")
-    df["ProductName"] = df["ProductName"].fillna('')
-    df["Category"] = df["Category"].fillna(df['Category'].mode()[0])
-    df["UnitPrice"] = df["UnitPrice"].fillna(df['UnitPrice'].median())
-    df["StockQuantity"] = df["StockQuantity"].fillna('0')
-    df["PurchaseType"] = df["PurchaseType"].fillna('Unknown')
-    df = df.dropna(subset=["ProductID"])  # Remove rows without product code
+    df["product_name"] = df["product_name"].fillna("Unknown Product")
+    df["category"] = df["category"].fillna("unknown category")
+    df["unit_price"] = df["unit_price"].fillna(df["unit_price"].median())
+    df["stock_quantity"] = df["stock_quantity"].fillna(0)
+    df.dropna(subset=["product_name"])  # Remove rows without product code
+    df["purchase_type"] = df["purchase_type"].fillna("unknown preference")
 
     # Log missing values by column after handling
     missing_after = df.isna().sum()
@@ -166,10 +186,7 @@ def remove_outliers(df: pd.DataFrame) -> pd.DataFrame:
     logger.info(f"FUNCTION START: remove_outliers with dataframe shape={df.shape}")
     initial_count = len(df)
 
-    for col in [
-        'UnitPrice',
-        'StockQuantity',
-    ]:
+    for col in ["unit_price", "stock_quantity"]:
         if col in df.columns and df[col].dtype in ['int64', 'float64']:
             Q1 = df[col].quantile(0.25)
             Q3 = df[col].quantile(0.75)
@@ -197,9 +214,10 @@ def standardize_formats(df: pd.DataFrame) -> pd.DataFrame:
     """
     logger.info(f"FUNCTION START: standardize_formats with dataframe shape={df.shape}")
 
-    # Implement standardization for product data
-    # Standardizing text fields, units, and categorical variables
-    df["UnitPrice"] = df["UnitPrice"].round(2)  # Round prices to 2 decimal places
+    df['product_name'] = df['product_name'].str.title()  # Title case for product names
+    df['category'] = df['category'].str.lower()  # Lowercase for categories
+    df["unit_price"] = df["unit_price"].round(2)  # Round prices to 2 decimal places
+    df["stock_quantity"] = df["stock_quantity"].astype(int)  # Turns into integer
 
     logger.info("Completed standardizing formats")
     return df
@@ -217,12 +235,10 @@ def validate_data(df: pd.DataFrame) -> pd.DataFrame:
     """
     logger.info(f"FUNCTION START: validate_data with dataframe shape={df.shape}")
 
-    # TODO: Implement data validation rules specific to products
-    # Suggestion: Check for valid values in critical fields
-    # Example:
-    invalid_prices = df[df['UnitPrice'] < 0].shape[0]
+    invalid_prices = df[df["unit_price"] < 0].shape[0]
     logger.info(f"Found {invalid_prices} products with negative prices")
-    df = df[df['UnitPrice'] >= 0]
+    df = df[df["unit_price"] >= 0]
+    df = df[df["stock_quantity"] >= 0]
 
     logger.info("Data validation complete")
     return df
@@ -247,9 +263,6 @@ def main() -> None:
     # Read raw data
     df = read_raw_data(input_file)
 
-    # Read raw data
-    df = read_raw_data(input_file)
-
     # Record original shape
     original_shape = df.shape
 
@@ -257,16 +270,8 @@ def main() -> None:
     logger.info(f"Initial dataframe columns: {', '.join(df.columns.tolist())}")
     logger.info(f"Initial dataframe shape: {df.shape}")
 
-    # Clean column names
-    original_columns = df.columns.tolist()
-    df.columns = df.columns.str.strip().str.replace(' ', '_')
-
-    # Log if any column names changed
-    changed_columns = [
-        f"{old} -> {new}" for old, new in zip(original_columns, df.columns) if old != new
-    ]
-    if changed_columns:
-        logger.info(f"Cleaned column names: {', '.join(changed_columns)}")
+    # Rename Columns
+    df = rename_columns(df)
 
     # Remove duplicates
     df = remove_duplicates(df)
@@ -274,7 +279,7 @@ def main() -> None:
     # Handle missing values
     df = handle_missing_values(df)
 
-    # Remove outliers
+    # Remove Outliers
     df = remove_outliers(df)
 
     # Validate data

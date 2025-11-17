@@ -1,7 +1,7 @@
 """
-scripts/data_preparation/prepare_products.py
+scripts/data_preparation/prepare_customers.py
 
-This script reads data from the data/raw folder, cleans the data,
+This script reads customer data from the data/raw folder, cleans the data,
 and writes the cleaned version to the data/prepared folder.
 
 Tasks:
@@ -37,8 +37,8 @@ from analytics_project.utils_scrubber import DataScrubber
 SCRIPTS_DATA_PREP_DIR: pathlib.Path = (
     pathlib.Path(__file__).resolve().parent
 )  # Directory of the current script
-SCRIPTS_DIR: pathlib.Path = SCRIPTS_DATA_PREP_DIR.parent  # analytics_project folder
-PROJECT_ROOT: pathlib.Path = SCRIPTS_DIR.parent  # src folder
+SCRIPTS_DIR: pathlib.Path = SCRIPTS_DATA_PREP_DIR.parent  # analytics project
+PROJECT_ROOT: pathlib.Path = SCRIPTS_DIR.parent  # scr
 DATA_DIR: pathlib.Path = PROJECT_ROOT / "data"
 RAW_DATA_DIR: pathlib.Path = DATA_DIR / "raw"
 PREPARED_DATA_DIR: pathlib.Path = DATA_DIR / "prepared"  # place to store prepared data
@@ -49,32 +49,24 @@ DATA_DIR.mkdir(exist_ok=True)
 RAW_DATA_DIR.mkdir(exist_ok=True)
 PREPARED_DATA_DIR.mkdir(exist_ok=True)
 
+
 #####################################
 # Define Functions - Reusable blocks of code / instructions
 #####################################
 
 
 def read_raw_data(file_name: str) -> pd.DataFrame:
-    """
-    Read raw data from CSV.
-
-    Args:
-        file_name (str): Name of the CSV file to read.
-
-    Returns:
-        pd.DataFrame: Loaded DataFrame.
-    """
-    logger.info(f"FUNCTION START: read_raw_data with file_name={file_name}")
-    file_path = RAW_DATA_DIR.joinpath(file_name)
-    logger.info(f"Reading data from {file_path}")
-    df = pd.read_csv(file_path)
-    logger.info(f"Loaded dataframe with {len(df)} rows and {len(df.columns)} columns")
-
-    # data type and information
-    logger.info(f"Column datatypes: \n{df.dtypes}")
-    logger.info(f"Number of unique values: \n{df.nunique()}")
-
-    return df
+    """Read raw data from CSV."""
+    file_path: pathlib.Path = RAW_DATA_DIR.joinpath(file_name)
+    try:
+        logger.info(f"READING: {file_path}.")
+        return pd.read_csv(file_path)
+    except FileNotFoundError:
+        logger.error(f"File not found: {file_path}")
+        return pd.DataFrame()  # Return an empty DataFrame if the file is not found
+    except Exception as e:
+        logger.error(f"Error reading {file_path}: {e}")
+        return pd.DataFrame()  # Return an empty DataFrame if any other error occurs
 
 
 def save_prepared_data(df: pd.DataFrame, file_name: str) -> None:
@@ -93,9 +85,50 @@ def save_prepared_data(df: pd.DataFrame, file_name: str) -> None:
     logger.info(f"Data saved to {file_path}")
 
 
+def rename_columns(df: pd.DataFrame) -> pd.DataFrame:
+    # Change column names to match the standard formatting
+
+    logger.info("Function Start: rename_columns")
+
+    # Log columns BEFORE renaming
+    logger.info(f"Columns BEFORE renaming: {df.columns.tolist()}")
+
+    column_mapping = {
+        "CustomerID": "customer_id",
+        "Name": "name",
+        "Region": "region",
+        "JoinDate": "join_date",
+        "NumberofPurchases": "number_of_purchases",
+        "ContactPreference": "contact_preferences",
+    }
+
+    df = df.rename(columns=column_mapping)
+
+    # Log columns AFTER renaming
+    logger.info(f"Columns AFTER renaming: {df.columns.tolist()}")
+
+    logger.info("Function End: rename_columns")
+    return df
+
+
+def column_data_type(df: pd.DataFrame) -> pd.DataFrame:
+    logger.info("Function Start: Changing Data Type")
+
+    scrubber = DataScrubber(df)
+
+    df = scrubber.convert_column_to_new_data_type('number_of_purchases', int)
+
+    logger.info(
+        f"Converted column 'number_of_purchases' to dtype: {df['number_of_purchases'].dtype}"
+    )
+    return df
+
+
 def remove_duplicates(df: pd.DataFrame) -> pd.DataFrame:
     """
     Remove duplicate rows from the DataFrame.
+    How do you decide if a row is duplicated?
+    Which do you keep? Which do you delete?
 
     Args:
         df (pd.DataFrame): Input DataFrame.
@@ -104,15 +137,19 @@ def remove_duplicates(df: pd.DataFrame) -> pd.DataFrame:
         pd.DataFrame: DataFrame with duplicates removed.
     """
     logger.info(f"FUNCTION START: remove_duplicates with dataframe shape={df.shape}")
-    initial_count = len(df)
 
-    # Drop duplicates
-    df = df.drop_duplicates(subset=["ProductID"])
+    # Let's delegate this to the DataScrubber class
+    # First, create an instance of the DataScrubber class
+    # by passing in the dataframe as an argument.
+    df_scrubber = DataScrubber(df)
 
-    removed_count = initial_count - len(df)
-    logger.info(f"Removed {removed_count} duplicate rows")
-    logger.info(f"{len(df)} records remaining after removing duplicates.")
-    return df
+    # Now, call the method on our instance to remove duplicates.
+    # This method will return a new dataframe with duplicates removed.
+    df_deduped = df_scrubber.remove_duplicate_records()
+
+    logger.info(f"Original dataframe shape: {df.shape}")
+    logger.info(f"Deduped  dataframe shape: {df_deduped.shape}")
+    return df_deduped
 
 
 def handle_missing_values(df: pd.DataFrame) -> pd.DataFrame:
@@ -128,26 +165,26 @@ def handle_missing_values(df: pd.DataFrame) -> pd.DataFrame:
     """
     logger.info(f"FUNCTION START: handle_missing_values with dataframe shape={df.shape}")
 
-    # Log missing values by column before handling
-    # NA means missing or "not a number" - ask your AI for details
-    missing_by_col = df.isna().sum()
-    logger.info(f"Missing values by column before handling:\n{missing_by_col}")
+    # DEBUG: Print what columns actually exist
+    logger.info(f"Columns in DataFrame: {df.columns.tolist()}")
 
-    # TODO: OPTIONAL - We can implement appropriate missing value handling
-    # specific to our data.
-    # For example: Different strategies may be needed for different columns
-    # USE YOUR COLUMN NAMES - these are just examples
-    df["ProductID"] = df["ProductID"].fillna("Unknown Product")
-    df["ProductName"] = df["ProductName"].fillna('')
-    df["Category"] = df["Category"].fillna(df['Category'].mode()[0])
-    df["UnitPrice"] = df["UnitPrice"].fillna(df['UnitPrice'].median())
-    df["StockQuantity"] = df["StockQuantity"].fillna('0')
-    df["PurchaseType"] = df["PurchaseType"].fillna('Unknown')
-    df = df.dropna(subset=["ProductID"])  # Remove rows without product code
+    # Log missing values count before handling
+    missing_before = df.isna().sum().sum()
+    logger.info(f"Total missing values before handling: {missing_before}")
 
-    # Log missing values by column after handling
-    missing_after = df.isna().sum()
-    logger.info(f"Missing values by column after handling:\n{missing_after}")
+    # Drop rows where customer_id is missing
+    df = df.dropna(subset=["customer_id"])
+
+    # Fill missing values
+    df["name"] = df["name"].fillna("unknown")
+    df["region"] = df["region"].fillna("unknown")
+    df["join_date"] = df["join_date"].fillna("0/0/0000")
+    df["number_of_purchases"] = df["number_of_purchases"].fillna(0)
+    df["contact_preferences"] = df["contact_preferences"].fillna("unknown")
+
+    # Log missing values count after handling
+    missing_after = df.isna().sum().sum()
+    logger.info(f"Total missing values after handling: {missing_after}")
     logger.info(f"{len(df)} records remaining after handling missing values.")
     return df
 
@@ -166,18 +203,15 @@ def remove_outliers(df: pd.DataFrame) -> pd.DataFrame:
     logger.info(f"FUNCTION START: remove_outliers with dataframe shape={df.shape}")
     initial_count = len(df)
 
-    for col in [
-        'UnitPrice',
-        'StockQuantity',
-    ]:
-        if col in df.columns and df[col].dtype in ['int64', 'float64']:
-            Q1 = df[col].quantile(0.25)
-            Q3 = df[col].quantile(0.75)
-            IQR = Q3 - Q1
-            lower_bound = Q1 - 1.5 * IQR
-            upper_bound = Q3 + 1.5 * IQR
-            df = df[(df[col] >= lower_bound) & (df[col] <= upper_bound)]
-            logger.info(f"Applied outlier removal to {col}: bounds [{lower_bound}, {upper_bound}]")
+    # DEBUG: Check the data type and values
+    logger.info(f"number_of_purchases dtype: {df['number_of_purchases'].dtype}")
+    logger.info(f"Sample values: {df['number_of_purchases'].head(10).tolist()}")
+
+    # Convert to numeric (in case it's stored as strings)
+    df["number_of_purchases"] = pd.to_numeric(df["number_of_purchases"], errors='coerce')
+
+    # Now filter
+    df = df[(df["number_of_purchases"] < 8)]
 
     removed_count = initial_count - len(df)
     logger.info(f"Removed {removed_count} outlier rows")
@@ -185,55 +219,17 @@ def remove_outliers(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def standardize_formats(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Standardize the formatting of various columns.
-
-    Args:
-        df (pd.DataFrame): Input DataFrame.
-
-    Returns:
-        pd.DataFrame: DataFrame with standardized formatting.
-    """
-    logger.info(f"FUNCTION START: standardize_formats with dataframe shape={df.shape}")
-
-    # Implement standardization for product data
-    # Standardizing text fields, units, and categorical variables
-    df["UnitPrice"] = df["UnitPrice"].round(2)  # Round prices to 2 decimal places
-
-    logger.info("Completed standardizing formats")
-    return df
-
-
-def validate_data(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Validate data against business rules.
-
-    Args:
-        df (pd.DataFrame): Input DataFrame.
-
-    Returns:
-        pd.DataFrame: Validated DataFrame.
-    """
-    logger.info(f"FUNCTION START: validate_data with dataframe shape={df.shape}")
-
-    # TODO: Implement data validation rules specific to products
-    # Suggestion: Check for valid values in critical fields
-    # Example:
-    invalid_prices = df[df['UnitPrice'] < 0].shape[0]
-    logger.info(f"Found {invalid_prices} products with negative prices")
-    df = df[df['UnitPrice'] >= 0]
-
-    logger.info("Data validation complete")
-    return df
+#####################################
+# Define Main Function - The main entry point of the script
+#####################################
 
 
 def main() -> None:
     """
-    Main function for processing product data.
+    Main function for processing customer data.
     """
     logger.info("==================================")
-    logger.info("STARTING prepare_products_data.py")
+    logger.info("STARTING prepare_customers_data.py")
     logger.info("==================================")
 
     logger.info(f"Root         : {PROJECT_ROOT}")
@@ -241,11 +237,8 @@ def main() -> None:
     logger.info(f"data/prepared: {PREPARED_DATA_DIR}")
     logger.info(f"scripts      : {SCRIPTS_DIR}")
 
-    input_file = "products_data.csv"
-    output_file = "products_prepared.csv"
-
-    # Read raw data
-    df = read_raw_data(input_file)
+    input_file = "customers_data.csv"
+    output_file = "customers_prepared.csv"
 
     # Read raw data
     df = read_raw_data(input_file)
@@ -259,7 +252,7 @@ def main() -> None:
 
     # Clean column names
     original_columns = df.columns.tolist()
-    df.columns = df.columns.str.strip().str.replace(' ', '_')
+    df.columns = df.columns.str.strip()
 
     # Log if any column names changed
     changed_columns = [
@@ -268,20 +261,20 @@ def main() -> None:
     if changed_columns:
         logger.info(f"Cleaned column names: {', '.join(changed_columns)}")
 
+    # Rename Columns
+    df = rename_columns(df)
+
     # Remove duplicates
     df = remove_duplicates(df)
 
     # Handle missing values
     df = handle_missing_values(df)
 
+    # Data Typees
+    df = column_data_type(df)
+
     # Remove outliers
     df = remove_outliers(df)
-
-    # Validate data
-    df = validate_data(df)
-
-    # Standardize formats
-    df = standardize_formats(df)
 
     # Save prepared data
     save_prepared_data(df, output_file)
@@ -290,13 +283,15 @@ def main() -> None:
     logger.info(f"Original shape: {df.shape}")
     logger.info(f"Cleaned shape:  {original_shape}")
     logger.info("==================================")
-    logger.info("FINISHED prepare_products_data.py")
+    logger.info("FINISHED prepare_customers_data.py")
     logger.info("==================================")
 
 
-# -------------------
+#####################################
 # Conditional Execution Block
-# -------------------
+# Ensures the script runs only when executed directly
+# This is a common Python convention.
+#####################################
 
 if __name__ == "__main__":
     main()

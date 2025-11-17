@@ -9,11 +9,21 @@ import pathlib
 
 import pandas as pd
 
-from .utils_logger import init_logger, logger, project_root
+# Import local modules (e.g. utils/logger.py)
+from analytics_project.utils_logger import logger
 
-# Set up paths as constants
-DATA_DIR: pathlib.Path = project_root.joinpath("data")
-RAW_DATA_DIR: pathlib.Path = DATA_DIR.joinpath("raw")
+# Optional: Use a data_scrubber module for common data cleaning tasks
+from analytics_project.utils_scrubber import DataScrubber
+
+# Constants
+SCRIPTS_DATA_PREP_DIR: pathlib.Path = (
+    pathlib.Path(__file__).resolve().parent
+)  # Directory of the current script
+SCRIPTS_DIR: pathlib.Path = SCRIPTS_DATA_PREP_DIR.parent  # analytics_project folder
+PROJECT_ROOT: pathlib.Path = SCRIPTS_DIR.parent  # src folder
+DATA_DIR: pathlib.Path = PROJECT_ROOT / "data"
+RAW_DATA_DIR: pathlib.Path = DATA_DIR / "raw"
+PREPARED_DATA_DIR: pathlib.Path = DATA_DIR / "prep"
 
 
 # Define a reusable function that accepts a full path.
@@ -42,6 +52,29 @@ def read_and_log(path: pathlib.Path) -> pd.DataFrame:
     except Exception as e:
         logger.error(f"Error reading {path}: {e}")
         return pd.DataFrame()
+
+
+def save_prepared_data(df: pd.DataFrame, file_name: str) -> None:
+    """
+    Save cleaned data to CSV.
+
+    Args:
+        df (pd.DataFrame): Cleaned DataFrame.
+        file_name (str): Name of the output file.
+    """
+    logger.info(
+        f"FUNCTION START: save_prepared_data with file_name={file_name}, dataframe shape={df.shape}"
+    )
+    file_path = PREPARED_DATA_DIR.joinpath(file_name)
+    df.to_csv(file_path, index=False)
+    logger.info(f"Data saved to {file_path}")
+
+
+def clean_sales_data(df: pd.DataFrame):
+    logger.info("Cleaning Sales Data")
+
+    initial_shape = df.shape
+    logger.info(f"Initial shape: {initial_shape}")
 
 
 # Define a main function to start our data processing pipeline.

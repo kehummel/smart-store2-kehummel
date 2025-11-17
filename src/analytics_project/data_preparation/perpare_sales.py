@@ -107,8 +107,6 @@ def handle_missing_values(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
-    # TODO:Remove outliers
-
 
 def remove_outliers(df: pd.DataFrame) -> pd.DataFrame:
     logger.info(f"FUNCTION START: remove_outliers with dataframe shape={df.shape}")
