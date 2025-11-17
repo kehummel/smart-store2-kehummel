@@ -3,7 +3,7 @@
 
 ## WORKFLOW 1. Set Up Your Machine
 
-Followed the correct steps to set up machine. Most of it was already set up from projects in a previous class. 
+Followed the correct steps to set up machine. Most of it was already set up from projects in a previous class.
 
 ## WORKFLOW 2. Set Up Your Project
 
@@ -124,15 +124,20 @@ Before starting a new session, remember to do a `git pull` and keep your tools u
 
 Each time forward progress is made, remember to git add-commit-push.
 
-### 4 Add Raw Data 
+### 4 Add Raw Data
 
-I added the raw data in csv files. 
+I added the raw data in csv files.
 
 ### 5 Add to the data
 
-I added errors to the data so that I could practice fixing them. 
+I added errors to the data so that I could practice fixing them.
 
 ### 6 Prepare the data
 
-I followed the format for preparing the data. 
+I followed the format for preparing the data.
 
+### 7 Pre-Load Data Preparation
+
+I used the utils_scrubber.py to clean the data. I decided to make three additional python scripts in order to do this because I didn't want to erase work that I had already completed. I also wanted to be able to compare the two processes and I will be better able to do that if I have the original document to look over. The new files all have _scrub in them so that you can tell the difference.
+
+I tried to pay close attention to the dtypes of each column so that they would be all set for data analysis. 
