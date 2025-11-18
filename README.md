@@ -140,4 +140,19 @@ I followed the format for preparing the data.
 
 I used the utils_scrubber.py to clean the data. I decided to make three additional python scripts in order to do this because I didn't want to erase work that I had already completed. I also wanted to be able to compare the two processes and I will be better able to do that if I have the original document to look over. The new files all have _scrub in them so that you can tell the difference.
 
-I tried to pay close attention to the dtypes of each column so that they would be all set for data analysis. 
+I tried to pay close attention to the dtypes of each column so that they would be all set for data analysis.
+
+I also went ahead and changed the names to meet SQL standards.
+
+### ETL to Databse
+
+Organization
+1) The sales data table is the primary key and the customer and product tables are the foreign table.
+2) All numbers are integers except for sale amounts and prices, since they are money amounts and should be rounded to two decimal places.
+3) All dates follow the d/m/y format. 
+
+Problems Encountered
+1) I needed to still use sys and pathlib because my data folder is in a sub folder, and not where it should be. I need to look into file paths and re-learn that since it didn't stick from my first class.
+2) AFter updating the path I created the tables and uploaded the data.
+3) I kept receiving errors saying that there were duplicates in my table, when there shouldn't have been because of the pre-cleaning work that I did. This means there is either an error in my utils_scrubber.py file or in both of the files prep_customer_scrub.py and prep_sales_scrub.py.
+4) I used AI to change my code so that it removed duplicates as it loaded the database.
