@@ -127,7 +127,7 @@ def rename_columns(df: pd.DataFrame) -> pd.DataFrame:
     logger.info(f"Columns BEFORE renaming: {df.columns.tolist()}")
 
     column_mapping = {
-        "TransactionID": "transaction_id",
+        "TransactionID": "sales_id",
         "SaleDate": "sale_date",
         "CustomerID": "customer_id",
         "ProductID": "product_id",
@@ -166,7 +166,7 @@ def handle_missing_values(df: pd.DataFrame) -> pd.DataFrame:
     df["sale_date"] = df["sale_date"].fillna("05/04/2025")
     df["customer_id"] = df["customer_id"].fillna(0)
     df["product_id"] = df["product_id"].fillna(0)
-    df = df.dropna(subset=["transaction_id"])  # Remove rows without a transaction ID
+    df = df.dropna(subset=["sales_id"])  # Remove rows without a transaction ID
     df["store_id"] = df["store_id"].fillna(399)
     df["campaign_id"] = df["campaign_id"].fillna(100)
     df["sales_amount"] = df["sales_amount"].fillna(0)
