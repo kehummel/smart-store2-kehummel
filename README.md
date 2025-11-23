@@ -163,16 +163,16 @@ I used Power BI to create visuals for the database. I focused mainly on sales da
 
 9a: Initial Data and Slicing - We started by creating a new table of how much clients spent to identify our top clients. I created a bar graph showing how much our top clients spent and then added on a slicer so that it could be sorted by year.
 
-![Data slicing  visualization](data/images/slicing.png)
+![Data slicing  visualization](docs/images/slicing.png)
 
 9b: Dicing - I then created a matrix so that you could view the amount of sales sorted by an item's category and the location it was bought in. This would help a company identify trends across the country and per region.
 
-![Data dicing visualization](data/images/dicing.png)
+![Data dicing visualization](docs/images/dicing.png)
 
 9c: Drilldow - I made a line graph showing the amount of sales over time. This would allow a company to match up sales trends with possible explanations. For example, they could line up a drop in prices with a minor recession in the country. They could identify the timelines of different promotions and see if they lined up with any increase in sales.
 
-![Data Drilldown visualization](data/images/drilldown.png)
+![Data Drilldown visualization](docs/images/drilldown.png)
 
 9d: Sales type visualization - The last step I did was to create a pie chart visualizing the types of sales, in store or online, to allow the business to know where they are getting the most of their revenue from and to help guide them in their future decisions about promotions.
 
-![Data Sales visualization](data/images/sales_visualizations.png)
+![Data Sales visualization](docs/images/sales_visualizations.png)
