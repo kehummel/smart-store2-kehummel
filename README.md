@@ -144,15 +144,35 @@ I tried to pay close attention to the dtypes of each column so that they would b
 
 I also went ahead and changed the names to meet SQL standards.
 
-### ETL to Databse
+### 8 ETL to Databse
 
 Organization
 1) The sales data table is the primary key and the customer and product tables are the foreign table.
 2) All numbers are integers except for sale amounts and prices, since they are money amounts and should be rounded to two decimal places.
-3) All dates follow the d/m/y format. 
+3) All dates follow the d/m/y format.
 
 Problems Encountered
 1) I needed to still use sys and pathlib because my data folder is in a sub folder, and not where it should be. I need to look into file paths and re-learn that since it didn't stick from my first class.
 2) AFter updating the path I created the tables and uploaded the data.
 3) I kept receiving errors saying that there were duplicates in my table, when there shouldn't have been because of the pre-cleaning work that I did. This means there is either an error in my utils_scrubber.py file or in both of the files prep_customer_scrub.py and prep_sales_scrub.py.
 4) I used AI to change my code so that it removed duplicates as it loaded the database.
+
+### 9 Creating Visualizations
+
+I used Power BI to create visuals for the database. I focused mainly on sales data by date. Sadly, my sale date data was not accurate. So I used the joined date. In the real world I would not do this. I would go back to the original, raw data and complete the entire process again to have correct data. But since this is a class and the point was to learn the visuals, I decided to just work with the data that I had in the current database.
+
+9a: Initial Data and Slicing - We started by creating a new table of how much clients spent to identify our top clients. I created a bar graph showing how much our top clients spent and then added on a slicer so that it could be sorted by year.
+
+![Data slicing  visualization](data/images/slicing.png)
+
+9b: Dicing - I then created a matrix so that you could view the amount of sales sorted by an item's category and the location it was bought in. This would help a company identify trends across the country and per region.
+
+![Data dicing visualization](data/images/dicing.png)
+
+9c: Drilldow - I made a line graph showing the amount of sales over time. This would allow a company to match up sales trends with possible explanations. For example, they could line up a drop in prices with a minor recession in the country. They could identify the timelines of different promotions and see if they lined up with any increase in sales.
+
+![Data Drilldown visualization](data/images/drilldown.png)
+
+9d: Sales type visualization - The last step I did was to create a pie chart visualizing the types of sales, in store or online, to allow the business to know where they are getting the most of their revenue from and to help guide them in their future decisions about promotions.
+
+![Data Sales visualization](data/images/sales_visualizations.png)
