@@ -176,3 +176,32 @@ I used Power BI to create visuals for the database. I focused mainly on sales da
 9d: Sales type visualization - The last step I did was to create a pie chart visualizing the types of sales, in store or online, to allow the business to know where they are getting the most of their revenue from and to help guide them in their future decisions about promotions.
 
 ![Data Sales visualization](docs/images/sales_visualizations.png)
+
+
+### OLAP Project Design
+Section 1: The Business Goal:
+The goal is to use the sales in each city, per month, to determine the stock each city needs. This is important because having too much stock of products that aren’t selling will make the city branch lose money, but not having enough stock in a city may cause the business to lose customers, and therefore revenue.
+
+Section 2: Data Source
+I started with a pre-computed cube. I took the product names from the products table, and the sales amount, sale date, and city name from the sales table. The product ID served as the key between the two tables. I then found the sum of the sales by product and by city to then find the average amount of sales per month.
+
+Section 3: Tools
+I used vs code to create my precube and then Power BI to create my visualizations. I chose to create a precube to get more practice with coding, and I chose to make my visualizations with Power BI because I want to explore its capabilities more.
+
+Section 4: Workflow & Logic
+Description dimension: product name, city,
+Numeric metric: Sales amount, product ID, unit price
+Aggregations: Sum, average
+Slicing: by city
+Dicing: by sales and product
+Drilldown: from year to month
+
+
+
+Section 5: Results
+
+Section 6: Suggested Business Action
+
+Section 7: Challenges
+
+Had to use code in debug_code_file_path.md to figure out where it was trying to pull dataframe from, and change my pathways to match it. 

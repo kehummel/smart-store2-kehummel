@@ -1,0 +1,1329 @@
+Month,product_id,product_name,city,sales_amount_sum,sales_amount_mean,product_id_count,product_ids
+1,2000,Electronics-Be,atlanta,969.31,969.31,1,[2000]
+1,2000,Electronics-Be,chicago,4749.62,2374.81,2,"[2000, 2000]"
+1,2000,Electronics-Be,los angelos,4846.55,4846.55,1,[2000]
+1,2001,Electronics-Be,los angelos,2432.87,1216.435,2,"[2001, 2001]"
+1,2003,Electronics-Training,chicago,1155.54,1155.54,1,[2003]
+1,2005,Office-Huge,atlanta,385.9,385.9,1,[2005]
+1,2005,Office-Huge,chicago,771.8,771.8,1,[2005]
+1,2005,Office-Huge,philadelphia,1157.71,1157.71,1,[2005]
+1,2006,Office-Class,los angelos,0.0,0.0,1,[2006]
+1,2008,Electronics-Skin,chi,59.93,59.93,1,[2008]
+1,2008,Electronics-Skin,philadelphia,133.18,133.18,1,[2008]
+1,2009,Office-Raise,los angelos,119.36,119.36,1,[2009]
+1,2009,Office-Raise,philadelphia,66.31,66.31,1,[2009]
+1,2011,Electronics-Religious,philadelphia,737.53,737.53,1,[2011]
+1,2012,Clothing-Artist,atlanta,623.19,623.19,1,[2012]
+1,2013,Office-Cultural,los angelos,5612.16,5612.16,1,[2013]
+1,2015,Office-Itself,chicago,1619.93,1619.93,1,[2015]
+1,2016,Home-He,atlanta,1292.08,1292.08,1,[2016]
+1,2017,Electronics-Feeling,los angelos,417.33,417.33,1,[2017]
+1,2017,Electronics-Feeling,philadelphia,1854.8,1854.8,1,[2017]
+1,2018,Electronics-Nature,atlanta,867.62,867.62,1,[2018]
+1,2019,Home-History,chicago,747.14,747.14,1,[2019]
+1,2020,Electronics-Share,atlanta,676.49,676.49,1,[2020]
+1,2020,Electronics-Share,chicago,1127.49,1127.49,1,[2020]
+1,2020,Electronics-Share,philadelphia,751.66,751.66,1,[2020]
+1,2021,Clothing-Skill,atlanta,835.41,417.705,2,"[2021, 2021]"
+1,2021,Clothing-Skill,los angelos,668.33,668.33,1,[2021]
+1,2021,Clothing-Skill,philadelphia,1503.74,1503.74,1,[2021]
+1,2022,Home-Economy,chicago,671.18,335.59,2,"[2022, 2022]"
+1,2022,Home-Economy,los angelos,3020.31,3020.31,1,[2022]
+1,2023,Home-Yeah,atlanta,0.0,0.0,1,[2023]
+1,2023,Home-Yeah,los angelos,2818.62,2818.62,1,[2023]
+1,2025,Electronics-Assume,atlanta,251.66,251.66,1,[2025]
+1,2025,Electronics-Assume,chicago,0.0,0.0,1,[2025]
+1,2025,Electronics-Assume,philadelphia,503.32,503.32,1,[2025]
+1,2026,Clothing-Use,atlanta,380.81,380.81,1,[2026]
+1,2026,Clothing-Use,chicago,423.12,423.12,1,[2026]
+1,2026,Clothing-Use,philadelphia,761.62,761.62,1,[2026]
+1,2027,Home-Purpose,chicago,775.83,775.83,1,[2027]
+1,2027,Home-Purpose,philadelphia,698.25,698.25,1,[2027]
+1,2028,Electronics-Take,atlanta,2551.76,1275.88,2,"[2028, 2028]"
+1,2028,Electronics-Take,chicago,1658.6399999999999,829.3199999999999,2,"[2028, 2028]"
+1,2028,Electronics-Take,philadelphia,1148.29,1148.29,1,[2028]
+1,2032,Electronics-There,atlanta,4728.0,4728.0,1,[2032]
+1,2032,Electronics-There,chicago,2553.12,1276.56,2,"[2032, 2032]"
+1,2032,Electronics-There,philadelphia,4728.0,2364.0,2,"[2032, 2032]"
+1,2033,Clothing-Argue,atlanta,3345.0,1672.5,2,"[2033, 2033]"
+1,2033,Clothing-Argue,chicago,0.0,0.0,1,[2033]
+1,2033,Clothing-Argue,philadelphia,2257.88,2257.88,1,[2033]
+1,2034,Clothing-Feel,atlanta,217.87,217.87,1,[2034]
+1,2035,Home-According,chicago,809.99,404.995,2,"[2035, 2035]"
+1,2036,Electronics-Candidate,chicago,348.77,348.77,1,[2036]
+1,2036,Electronics-Candidate,los angelos,653.94,653.94,1,[2036]
+1,2036,Electronics-Candidate,philadelphia,348.77,348.77,1,[2036]
+1,2037,Clothing-Meeting,atlanta,720.28,720.28,1,[2037]
+1,2037,Clothing-Meeting,philadelphia,0.0,0.0,1,[2037]
+1,2040,Clothing-Determine,chicago,55.26,55.26,1,[2040]
+1,2041,Home-Assume,chicago,804.21,804.21,1,[2041]
+1,2041,Home-Assume,los angelos,0.0,0.0,1,[2041]
+1,2042,Clothing-Lawyer,los angelos,1173.27,1173.27,1,[2042]
+1,2043,Electronics-Practice,chicago,2620.35,2620.35,1,[2043]
+1,2044,Office-Society,chicago,373.64,373.64,1,[2044]
+1,2045,Office-Next,los angelos,499.42,499.42,1,[2045]
+1,2048,Electronics-Candidate,philadelphia,1072.89,1072.89,1,[2048]
+1,2049,Office-Easy,atlanta,939.84,939.84,1,[2049]
+1,2049,Office-Easy,chicago,0.0,0.0,1,[2049]
+1,2049,Office-Easy,los angelos,939.84,939.84,1,[2049]
+1,2050,Electronics-Young,atlanta,448.27,448.27,1,[2050]
+1,2050,Electronics-Young,chicago,168.1,168.1,1,[2050]
+1,2050,Electronics-Young,philadelphia,504.31,504.31,1,[2050]
+1,2051,Home-Century,chicago,375.42,375.42,1,[2051]
+1,2051,Home-Century,los angelos,281.57,281.57,1,[2051]
+1,2051,Home-Century,philadelphia,187.71,187.71,1,[2051]
+1,2052,Office-Year,chicago,5118.82,5118.82,1,[2052]
+1,2052,Office-Year,los angelos,2193.78,2193.78,1,[2052]
+1,2054,Electronics-Above,chicago,3602.04,3602.04,1,[2054]
+1,2054,Electronics-Above,philadelphia,720.41,720.41,1,[2054]
+1,2057,Clothing-Identify,los angelos,786.56,786.56,1,[2057]
+1,2057,Clothing-Identify,philadelphia,699.17,699.17,1,[2057]
+1,2059,Electronics-Clear,atlanta,0.0,0.0,1,[2059]
+1,2059,Electronics-Clear,los angelos,1536.15,1536.15,1,[2059]
+1,2060,Office-Term,chicago,1225.14,612.57,2,"[2060, 2060]"
+1,2061,Home-Quite,atlanta,199.92,199.92,1,[2061]
+1,2061,Home-Quite,chicago,719.71,719.71,1,[2061]
+1,2061,Home-Quite,los angelos,0.0,0.0,1,[2061]
+1,2062,Office-Receive,chicago,495.49,495.49,1,[2062]
+1,2064,Electronics-Stop,los angelos,1676.03,838.015,2,"[2064, 2064]"
+1,2065,Office-Animal,chicago,376.27,376.27,1,[2065]
+1,2065,Office-Animal,los angelos,1411.02,1411.02,1,[2065]
+1,2065,Office-Animal,philadelphia,1411.02,1411.02,1,[2065]
+1,2066,Office-Occur,los angelos,464.45,464.45,1,[2066]
+1,2066,Office-Occur,philadelphia,1238.54,1238.54,1,[2066]
+1,2069,Clothing-Garden,atlanta,697.17,697.17,1,[2069]
+1,2069,Clothing-Garden,chicago,464.78,464.78,1,[2069]
+1,2069,Clothing-Garden,los angelos,697.17,697.17,1,[2069]
+1,2070,Clothing-About,chicago,0.0,0.0,1,[2070]
+1,2070,Clothing-About,los angelos,85.45,42.725,2,"[2070, 2070]"
+1,2071,Clothing-Success,atlanta,1230.32,1230.32,1,[2071]
+1,2071,Clothing-Success,chicago,984.26,984.26,1,[2071]
+1,2071,Clothing-Success,los angelos,1107.29,1107.29,1,[2071]
+1,2072,Electronics-Become,chicago,378.27,378.27,1,[2072]
+1,2072,Electronics-Become,philadelphia,672.48,672.48,1,[2072]
+1,2073,Clothing-Executive,los angelos,0.0,0.0,1,[2073]
+1,2073,Clothing-Executive,philadelphia,2497.15,1248.575,2,"[2073, 2073]"
+1,2074,Clothing-Strong,los angelos,527.6,527.6,1,[2074]
+1,2075,Electronics-Letter,atlanta,2341.92,2341.92,1,[2075]
+1,2075,Electronics-Letter,los angelos,2107.73,2107.73,1,[2075]
+1,2076,Clothing-Affect,atlanta,1450.93,1450.93,1,[2076]
+1,2076,Clothing-Affect,unknown city,2418.21,2418.21,1,[2076]
+1,2077,Office-Ball,los angelos,1011.29,505.645,2,"[2077, 2077]"
+1,2078,Electronics-Film,los angelos,255.62,255.62,1,[2078]
+1,2078,Electronics-Film,philadelphia,525.44,262.72,2,"[2078, 2078]"
+1,2079,Office-Who,chicago,2661.51,1330.755,2,"[2079, 2079]"
+1,2079,Office-Who,los angelos,855.49,855.49,1,[2079]
+1,2079,Office-Who,philadelphia,2661.51,1330.755,2,"[2079, 2079]"
+1,2080,Office-Doctor,los angelos,2996.14,1498.07,2,"[2080, 2080]"
+1,2081,Office-Light,los angelos,1492.44,1492.44,1,[2081]
+1,2082,Office-Figure,atlanta,773.1400000000001,386.57000000000005,2,"[2082, 2082]"
+1,2082,Office-Figure,chicago,239.94,239.94,1,[2082]
+1,2082,Office-Figure,philadelphia,239.94,239.94,1,[2082]
+1,2083,Clothing-Cut,philadelphia,768.16,768.16,1,[2083]
+1,2084,Office-Stuff,chicago,281.85,281.85,1,[2084]
+1,2084,Office-Stuff,los angelos,1127.4,1127.4,1,[2084]
+1,2084,Office-Stuff,philadelphia,253.67,253.67,1,[2084]
+1,2085,Electronics-Officer,atlanta,1113.89,556.945,2,"[2085, 2085]"
+1,2085,Electronics-Officer,philadelphia,726.45,726.45,1,[2085]
+1,2086,Home-Of,chicago,894.1,894.1,1,[2086]
+1,2086,Home-Of,philadelphia,2682.3,2682.3,1,[2086]
+1,2087,Electronics-Rather,atlanta,1720.6599999999999,573.5533333333333,3,"[2087, 2087, 2087]"
+1,2087,Electronics-Rather,philadelphia,477.96,477.96,1,[2087]
+1,2089,Electronics-Action,\,0.0,0.0,1,[2089]
+1,2089,Electronics-Action,atlanta,827.04,827.04,1,[2089]
+1,2089,Electronics-Action,philadelphia,413.52,413.52,1,[2089]
+1,2091,Office-Mrs,los angelos,3260.84,3260.84,1,[2091]
+1,2091,Office-Mrs,philadelphia,1811.58,1811.58,1,[2091]
+1,2092,Electronics-Add,atlanta,771.54,771.54,1,[2092]
+1,2092,Electronics-Add,chicago,771.54,771.54,1,[2092]
+1,2092,Electronics-Add,los angelos,2893.26,2893.26,1,[2092]
+1,2092,Electronics-Add,philadelphia,1446.63,1446.63,1,[2092]
+1,2093,Home-Real,chicago,1814.26,1814.26,1,[2093]
+1,2094,Office-Fight,los angelos,2960.1,1480.05,2,"[2094, 2094]"
+1,2095,Home-Seem,philadelphia,981.58,981.58,1,[2095]
+1,2096,Office-Discuss,atlanta,0.0,0.0,1,[2096]
+1,2097,Office-Recent,chicago,842.1,842.1,1,[2097]
+1,2099,Electronics-Several,chicago,1551.17,1551.17,1,[2099]
+3,2001,Electronics-Be,chicago,659.76,659.76,1,[2001]
+3,2001,Electronics-Be,los angelos,0.0,0.0,1,[2001]
+3,2003,Electronics-Training,philadelphia,1039.99,1039.99,1,[2003]
+3,2007,Clothing-Over,philadelphia,583.39,583.39,1,[2007]
+3,2008,Electronics-Skin,atlanta,159.82,159.82,1,[2008]
+3,2008,Electronics-Skin,chicago,319.63,159.815,2,"[2008, 2008]"
+3,2009,Office-Raise,los angelos,66.31,66.31,1,[2009]
+3,2009,Office-Raise,philadelphia,198.93,198.93,1,[2009]
+3,2010,Electronics-Themselves,los angelos,0.0,0.0,1,[2010]
+3,2010,Electronics-Themselves,philadelphia,0.0,0.0,1,[2010]
+3,2012,Clothing-Artist,atlanta,0.0,0.0,1,[2012]
+3,2012,Clothing-Artist,chicago,1869.57,934.785,2,"[2012, 2012]"
+3,2013,Office-Cultural,atlanta,0.0,0.0,1,[2013]
+3,2013,Office-Cultural,philadelphia,2806.08,2806.08,1,[2013]
+3,2014,Clothing-Eat,atlanta,738.9,738.9,1,[2014]
+3,2014,Clothing-Eat,chicago,738.9,738.9,1,[2014]
+3,2014,Clothing-Eat,los angelos,886.68,886.68,1,[2014]
+3,2015,Office-Itself,chicago,539.98,539.98,1,[2015]
+3,2015,Office-Itself,los angelos,0.0,0.0,1,[2015]
+3,2016,Home-He,philadelphia,969.06,969.06,1,[2016]
+3,2017,Electronics-Feeling,philadelphia,370.96,370.96,1,[2017]
+3,2018,Electronics-Nature,atlanta,1626.78,813.39,2,"[2018, 2018]"
+3,2018,Electronics-Nature,chicago,488.03,488.03,1,[2018]
+3,2019,Home-History,atlanta,0.0,0.0,1,[2019]
+3,2019,Home-History,chicago,933.93,933.93,1,[2019]
+3,2019,Home-History,los angelos,0.0,0.0,1,[2019]
+3,2020,Electronics-Share,atlanta,338.25,338.25,1,[2020]
+3,2021,Clothing-Skill,chicago,668.33,668.33,1,[2021]
+3,2022,Home-Economy,atlanta,671.18,671.18,1,[2022]
+3,2022,Home-Economy,los angelos,2684.72,2684.72,1,[2022]
+3,2022,Home-Economy,philadelphia,671.18,671.18,1,[2022]
+3,2023,Home-Yeah,atlanta,3006.53,3006.53,1,[2023]
+3,2023,Home-Yeah,philadelphia,751.63,751.63,1,[2023]
+3,2025,Electronics-Assume,atlanta,894.79,447.395,2,"[2025, 2025]"
+3,2026,Clothing-Use,philadelphia,190.4,190.4,1,[2026]
+3,2028,Electronics-Take,chicago,1531.06,765.53,2,"[2028, 2028]"
+3,2028,Electronics-Take,los angelos,2041.41,2041.41,1,[2028]
+3,2029,Home-Yourself,unknown city,0.0,0.0,1,[2029]
+3,2030,Clothing-First,philadelphia,509.91,509.91,1,[2030]
+3,2031,Office-Develop,atlanta,508.77,508.77,1,[2031]
+3,2032,Electronics-There,atlanta,1512.96,1512.96,1,[2032]
+3,2032,Electronics-There,chicago,1512.96,756.48,2,"[2032, 2032]"
+3,2034,Clothing-Feel,atlanta,136.17,136.17,1,[2034]
+3,2035,Home-According,atlanta,0.0,0.0,1,[2035]
+3,2035,Home-According,philadelphia,4499.95,4499.95,1,[2035]
+3,2036,Electronics-Candidate,chicago,1046.3000000000002,348.7666666666667,3,"[2036, 2036, 2036]"
+3,2037,Clothing-Meeting,los angelos,1440.56,1440.56,1,[2037]
+3,2037,Clothing-Meeting,philadelphia,2160.84,2160.84,1,[2037]
+3,2039,Clothing-Need,philadelphia,4589.27,2294.635,2,"[2039, 2039]"
+3,2040,Clothing-Determine,unknown city,138.16,138.16,1,[2040]
+3,2041,Home-Assume,atlanta,0.0,0.0,1,[2041]
+3,2041,Home-Assume,los angelos,0.0,0.0,1,[2041]
+3,2042,Clothing-Lawyer,atlanta,0.0,0.0,1,[2042]
+3,2042,Clothing-Lawyer,los angelos,0.0,0.0,1,[2042]
+3,2043,Electronics-Practice,los angelos,1397.52,1397.52,1,[2043]
+3,2044,Office-Society,los angelos,373.64,373.64,1,[2044]
+3,2044,Office-Society,philadelphia,186.82,93.41,2,"[2044, 2044]"
+3,2045,Office-Next,atlanta,499.42,499.42,1,[2045]
+3,2045,Office-Next,chicago,624.28,624.28,1,[2045]
+3,2047,Clothing-Hair,chicago,1674.9,837.45,2,"[2047, 2047]"
+3,2047,Clothing-Hair,los angelos,301.48,301.48,1,[2047]
+3,2048,Electronics-Candidate,philadelphia,1144.42,572.21,2,"[2048, 2048]"
+3,2049,Office-Easy,chicago,2819.52,2819.52,1,[2049]
+3,2050,Electronics-Young,los angelos,298.85,149.425,2,"[2050, 2050]"
+3,2050,Electronics-Young,philadelphia,504.31,504.31,1,[2050]
+3,2051,Home-Century,chicago,586.5999999999999,293.29999999999995,2,"[2051, 2051]"
+3,2052,Office-Year,los angelos,658.13,658.13,1,[2052]
+3,2054,Electronics-Above,chicago,3602.04,1801.02,2,"[2054, 2054]"
+3,2054,Electronics-Above,philadelphia,3602.04,3602.04,1,[2054]
+3,2055,Clothing-Politics,atlanta,48.55,48.55,1,[2055]
+3,2055,Clothing-Politics,los angelos,226.55,113.275,2,"[2055, 2055]"
+3,2056,Office-About,atlanta,839.55,839.55,1,[2056]
+3,2056,Office-About,los angelos,1574.16,1574.16,1,[2056]
+3,2058,Home-Wear,los angelos,3467.1000000000004,1733.5500000000002,2,"[2058, 2058]"
+3,2058,Home-Wear,philadelphia,2466.9700000000003,1233.4850000000001,2,"[2058, 2058]"
+3,2059,Electronics-Clear,los angelos,921.69,921.69,1,[2059]
+3,2060,Office-Term,atlanta,408.38,408.38,1,[2060]
+3,2060,Office-Term,chicago,0.0,0.0,1,[2060]
+3,2060,Office-Term,philadelphia,0.0,0.0,1,[2060]
+3,2061,Home-Quite,atlanta,599.76,599.76,1,[2061]
+3,2061,Home-Quite,philadelphia,639.74,639.74,1,[2061]
+3,2062,Office-Receive,atlanta,1114.85,1114.85,1,[2062]
+3,2064,Electronics-Stop,los angelos,705.7,705.7,1,[2064]
+3,2064,Electronics-Stop,philadelphia,793.91,793.91,1,[2064]
+3,2066,Office-Occur,atlanta,1238.54,1238.54,1,[2066]
+3,2067,Clothing-Remain,atlanta,872.85,872.85,1,[2067]
+3,2067,Clothing-Remain,chicago,0.0,0.0,1,[2067]
+3,2067,Clothing-Remain,philadelphia,872.85,872.85,1,[2067]
+3,2069,Clothing-Garden,atlanta,464.78,464.78,1,[2069]
+3,2071,Clothing-Success,philadelphia,0.0,0.0,1,[2071]
+3,2072,Electronics-Become,chicago,2942.1000000000004,1471.0500000000002,2,"[2072, 2072]"
+3,2073,Clothing-Executive,atlanta,1797.95,1797.95,1,[2073]
+3,2074,Clothing-Strong,atlanta,527.6,527.6,1,[2074]
+3,2074,Clothing-Strong,los angelos,659.5,659.5,1,[2074]
+3,2075,Electronics-Letter,chicago,1561.28,1561.28,1,[2075]
+3,2075,Electronics-Letter,los angelos,624.51,624.51,1,[2075]
+3,2076,Clothing-Affect,philadelphia,1934.57,1934.57,1,[2076]
+3,2077,Office-Ball,chicago,2809.15,2809.15,1,[2077]
+3,2079,Office-Who,atlanta,2851.62,2851.62,1,[2079]
+3,2081,Office-Light,atlanta,0.0,0.0,1,[2081]
+3,2081,Office-Light,los angelos,4328.08,2164.04,2,"[2081, 2081]"
+3,2082,Office-Figure,atlanta,1066.4,1066.4,1,[2082]
+3,2082,Office-Figure,los angelos,1226.36,613.18,2,"[2082, 2082]"
+3,2083,Clothing-Cut,atlanta,614.53,614.53,1,[2083]
+3,2083,Clothing-Cut,chicago,691.34,691.34,1,[2083]
+3,2084,Office-Stuff,atlanta,0.0,0.0,1,[2084]
+3,2086,Home-Of,atlanta,3576.4,3576.4,1,[2086]
+3,2086,Home-Of,chicago,3576.3999999999996,1788.1999999999998,2,"[2086, 2086]"
+3,2087,Electronics-Rather,atlanta,477.96,477.96,1,[2087]
+3,2087,Electronics-Rather,philadelphia,0.0,0.0,1,[2087]
+3,2088,Office-Evening,chicago,0.0,0.0,1,[2088]
+3,2088,Office-Evening,philadelphia,709.35,709.35,1,[2088]
+3,2089,Electronics-Action,los angelos,1654.08,1654.08,1,[2089]
+3,2091,Office-Mrs,chicago,2717.37,1358.685,2,"[2091, 2091]"
+3,2094,Office-Fight,chicago,493.35,493.35,1,[2094]
+3,2094,Office-Fight,los angelos,2466.75,2466.75,1,[2094]
+3,2095,Home-Seem,atlanta,490.79,490.79,1,[2095]
+3,2095,Home-Seem,los angelos,2453.95,2453.95,1,[2095]
+3,2095,Home-Seem,philadelphia,5987.639999999999,2993.8199999999997,2,"[2095, 2095]"
+3,2096,Office-Discuss,unknown city,672.18,672.18,1,[2096]
+3,2097,Office-Recent,atlanta,757.89,757.89,1,[2097]
+3,2097,Office-Recent,los angelos,842.1,842.1,1,[2097]
+3,2099,Electronics-Several,atlanta,646.32,323.16,2,"[2099, 2099]"
+4,2000,Electronics-Be,atlanta,4846.55,4846.55,1,[2000]
+4,2000,Electronics-Be,philadelphia,775.45,775.45,1,[2000]
+4,2001,Electronics-Be,atlanta,1237.05,1237.05,1,[2001]
+4,2001,Electronics-Be,chicago,0.0,0.0,1,[2001]
+4,2001,Electronics-Be,los angelos,412.35,412.35,1,[2001]
+4,2001,Electronics-Be,philadelphia,1113.34,1113.34,1,[2001]
+4,2003,Electronics-Training,atlanta,1733.3100000000002,866.6550000000001,2,"[2003, 2003]"
+4,2003,Electronics-Training,chicago,924.43,462.215,2,"[2003, 2003]"
+4,2003,Electronics-Training,los angelos,3582.17,1194.0566666666666,3,"[2003, 2003, 2003]"
+4,2003,Electronics-Training,philadelphia,0.0,0.0,1,[2003]
+4,2005,Office-Huge,atlanta,343.02,171.51,2,"[2005, 2005]"
+4,2005,Office-Huge,los angelos,686.05,686.05,1,[2005]
+4,2005,Office-Huge,philadelphia,1715.12,1715.12,1,[2005]
+4,2006,Office-Class,los angelos,633.6,211.20000000000002,3,"[2006, 2006, 2006]"
+4,2006,Office-Class,philadelphia,475.2,475.2,1,[2006]
+4,2007,Clothing-Over,los angelos,1750.17,1750.17,1,[2007]
+4,2007,Clothing-Over,philadelphia,466.71,233.355,2,"[2007, 2007]"
+4,2008,Electronics-Skin,chicago,66.59,66.59,1,[2008]
+4,2008,Electronics-Skin,philadelphia,133.18,133.18,1,[2008]
+4,2009,Office-Raise,philadelphia,198.93,198.93,1,[2009]
+4,2010,Electronics-Themselves,atlanta,140.11,140.11,1,[2010]
+4,2010,Electronics-Themselves,chicago,607.15,202.38333333333333,3,"[2010, 2010, 2010]"
+4,2010,Electronics-Themselves,los angelos,412.56,137.52,3,"[2010, 2010, 2010]"
+4,2011,Electronics-Religious,atlanta,4302.27,860.4540000000001,5,"[2011, 2011, 2011, 2011, 2011]"
+4,2011,Electronics-Religious,los angelos,0.0,0.0,1,[2011]
+4,2011,Electronics-Religious,philadelphia,3851.55,962.8875,4,"[2011, 2011, 2011, 2011]"
+4,2012,Clothing-Artist,atlanta,0.0,0.0,1,[2012]
+4,2012,Clothing-Artist,chicago,623.19,623.19,1,[2012]
+4,2012,Clothing-Artist,philadelphia,560.87,560.87,1,[2012]
+4,2013,Office-Cultural,atlanta,5799.2300000000005,1933.0766666666668,3,"[2013, 2013, 2013]"
+4,2013,Office-Cultural,chicago,6547.52,3273.76,2,"[2013, 2013]"
+4,2013,Office-Cultural,los angelos,0.0,0.0,1,[2013]
+4,2014,Clothing-Eat,atlanta,2857.08,571.4159999999999,5,"[2014, 2014, 2014, 2014, 2014]"
+4,2014,Clothing-Eat,chicago,197.04,197.04,1,[2014]
+4,2014,Clothing-Eat,los angelos,591.12,591.12,1,[2014]
+4,2014,Clothing-Eat,philadelphia,246.3,123.15,2,"[2014, 2014]"
+4,2015,Office-Itself,atlanta,7087.18,1771.795,4,"[2015, 2015, 2015, 2015]"
+4,2015,Office-Itself,chicago,1214.95,1214.95,1,[2015]
+4,2015,Office-Itself,los angelos,2024.91,2024.91,1,[2015]
+4,2015,Office-Itself,philadelphia,674.97,337.485,2,"[2015, 2015]"
+4,2016,Home-He,atlanta,1744.3,872.15,2,"[2016, 2016]"
+4,2016,Home-He,chicago,1679.7,419.925,4,"[2016, 2016, 2016, 2016]"
+4,2016,Home-He,los angelos,258.42,258.42,1,[2016]
+4,2017,Electronics-Feeling,atlanta,1854.8,1854.8,1,[2017]
+4,2017,Electronics-Feeling,los angelos,1112.88,556.44,2,"[2017, 2017]"
+4,2017,Electronics-Feeling,philadelphia,1112.88,1112.88,1,[2017]
+4,2018,Electronics-Nature,chicago,3741.6000000000004,1247.2,3,"[2018, 2018, 2018]"
+4,2018,Electronics-Nature,los angelos,3741.59,1247.1966666666667,3,"[2018, 2018, 2018]"
+4,2018,Electronics-Nature,philadelphia,0.0,0.0,2,"[2018, 2018]"
+4,2019,Home-History,atlanta,1681.07,840.535,2,"[2019, 2019]"
+4,2019,Home-History,chicago,933.93,933.93,1,[2019]
+4,2019,Home-History,los angelos,1587.6799999999998,793.8399999999999,2,"[2019, 2019]"
+4,2020,Electronics-Share,atlanta,751.66,751.66,1,[2020]
+4,2020,Electronics-Share,chicago,601.33,601.33,1,[2020]
+4,2020,Electronics-Share,los angelos,1014.74,1014.74,1,[2020]
+4,2020,Electronics-Share,philadelphia,1052.32,526.16,2,"[2020, 2020]"
+4,2021,Clothing-Skill,chicago,1670.82,1670.82,1,[2021]
+4,2021,Clothing-Skill,los angelos,3341.6400000000003,1670.8200000000002,2,"[2021, 2021]"
+4,2021,Clothing-Skill,philadelphia,2255.61,2255.61,1,[2021]
+4,2022,Home-Economy,atlanta,1208.12,1208.12,1,[2022]
+4,2022,Home-Economy,los angelos,604.06,604.06,1,[2022]
+4,2022,Home-Economy,philadelphia,1208.12,604.06,2,"[2022, 2022]"
+4,2023,Home-Yeah,atlanta,1879.08,1879.08,1,[2023]
+4,2023,Home-Yeah,chicago,2536.76,1268.38,2,"[2023, 2023]"
+4,2023,Home-Yeah,los angelos,751.63,751.63,1,[2023]
+4,2025,Electronics-Assume,los angelos,1062.56,531.28,2,"[2025, 2025]"
+4,2025,Electronics-Assume,philadelphia,838.86,279.62,3,"[2025, 2025, 2025]"
+4,2026,Clothing-Use,atlanta,719.3,359.65,2,"[2026, 2026]"
+4,2026,Clothing-Use,chicago,169.25,169.25,1,[2026]
+4,2027,Home-Purpose,chicago,1034.44,1034.44,1,[2027]
+4,2027,Home-Purpose,philadelphia,698.25,698.25,1,[2027]
+4,2028,Electronics-Take,atlanta,2551.76,1275.88,2,"[2028, 2028]"
+4,2028,Electronics-Take,chicago,1531.06,1531.06,1,[2028]
+4,2028,Electronics-Take,los angelos,3827.6400000000003,1913.8200000000002,2,"[2028, 2028]"
+4,2029,Home-Yourself,atlanta,40.53,40.53,1,[2029]
+4,2029,Home-Yourself,chicago,40.53,40.53,1,[2029]
+4,2029,Home-Yourself,los angelos,12.16,6.08,2,"[2029, 2029]"
+4,2029,Home-Yourself,philadelphia,36.48,36.48,1,[2029]
+4,2030,Clothing-First,atlanta,679.88,339.94,2,"[2030, 2030]"
+4,2030,Clothing-First,chicago,407.93,407.93,1,[2030]
+4,2030,Clothing-First,philadelphia,509.91,509.91,1,[2030]
+4,2031,Office-Develop,chicago,1695.9,1695.9,1,[2031]
+4,2031,Office-Develop,philadelphia,1695.9,1695.9,1,[2031]
+4,2032,Electronics-There,chicago,2836.8,2836.8,1,[2032]
+4,2032,Electronics-There,los angelos,945.6,945.6,1,[2032]
+4,2033,Clothing-Argue,atlanta,836.25,836.25,1,[2033]
+4,2033,Clothing-Argue,chicago,2508.75,2508.75,1,[2033]
+4,2033,Clothing-Argue,los angelos,1338.0,1338.0,1,[2033]
+4,2033,Clothing-Argue,philadelphia,2425.12,1212.56,2,"[2033, 2033]"
+4,2034,Clothing-Feel,atlanta,0.0,0.0,1,[2034]
+4,2034,Clothing-Feel,los angelos,435.75,217.875,2,"[2034, 2034]"
+4,2034,Clothing-Feel,philadelphia,1089.36,544.68,2,"[2034, 2034]"
+4,2035,Home-According,atlanta,899.99,899.99,1,[2035]
+4,2035,Home-According,chicago,899.99,899.99,1,[2035]
+4,2035,Home-According,los angelos,809.99,809.99,1,[2035]
+4,2036,Electronics-Candidate,atlanta,806.53,403.265,2,"[2036, 2036]"
+4,2036,Electronics-Candidate,chicago,806.53,268.8433333333333,3,"[2036, 2036, 2036]"
+4,2036,Electronics-Candidate,los angelos,610.34,305.17,2,"[2036, 2036]"
+4,2036,Electronics-Candidate,philadelphia,348.77,348.77,1,[2036]
+4,2037,Clothing-Meeting,atlanta,1368.5300000000002,684.2650000000001,2,"[2037, 2037]"
+4,2037,Clothing-Meeting,chicago,3241.26,1080.42,3,"[2037, 2037, 2037]"
+4,2037,Clothing-Meeting,los angelos,0.0,0.0,1,[2037]
+4,2037,Clothing-Meeting,philadelphia,2809.09,1404.545,2,"[2037, 2037]"
+4,2038,Office-Soon,atlanta,1667.72,1667.72,1,[2038]
+4,2038,Office-Soon,chicago,14268.25,1783.53125,8,"[2038, 2038, 2038, 2038, 2038, 2038, 2038, 2038]"
+4,2038,Office-Soon,los angelos,4447.25,2223.625,2,"[2038, 2038]"
+4,2038,Office-Soon,philadelphia,4632.55,4632.55,1,[2038]
+4,2039,Clothing-Need,atlanta,1562.3,1562.3,1,[2039]
+4,2039,Clothing-Need,philadelphia,2929.32,2929.32,1,[2039]
+4,2040,Clothing-Determine,chicago,124.34,124.34,1,[2040]
+4,2040,Clothing-Determine,philadelphia,262.5,65.625,4,"[2040, 2040, 2040, 2040]"
+4,2041,Home-Assume,chicago,0.0,0.0,1,[2041]
+4,2041,Home-Assume,los angelos,1447.58,1447.58,1,[2041]
+4,2041,Home-Assume,philadelphia,4825.26,2412.63,2,"[2041, 2041]"
+4,2042,Clothing-Lawyer,atlanta,335.22,335.22,1,[2042]
+4,2042,Clothing-Lawyer,los angelos,402.26,402.26,1,[2042]
+4,2043,Electronics-Practice,atlanta,873.45,873.45,1,[2043]
+4,2043,Electronics-Practice,philadelphia,5764.77,1441.1925,4,"[2043, 2043, 2043, 2043]"
+4,2044,Office-Society,los angelos,913.35,304.45,3,"[2044, 2044, 2044]"
+4,2044,Office-Society,philadelphia,830.32,830.32,1,[2044]
+4,2045,Office-Next,atlanta,1123.7,1123.7,1,[2045]
+4,2045,Office-Next,los angelos,0.0,0.0,1,[2045]
+4,2045,Office-Next,philadelphia,312.14,312.14,1,[2045]
+4,2047,Clothing-Hair,los angelos,3584.29,716.858,5,"[2047, 2047, 2047, 2047, 2047]"
+4,2047,Clothing-Hair,philadelphia,1875.89,625.2966666666667,3,"[2047, 2047, 2047]"
+4,2048,Electronics-Candidate,chicago,894.08,447.04,2,"[2048, 2048]"
+4,2048,Electronics-Candidate,philly,321.87,321.87,1,[2048]
+4,2049,Office-Easy,chicago,1879.68,1879.68,1,[2049]
+4,2049,Office-Easy,philadelphia,1503.74,1503.74,1,[2049]
+4,2050,Electronics-Young,atlanta,933.9,466.95,2,"[2050, 2050]"
+4,2050,Electronics-Young,chicago,1083.32,541.66,2,"[2050, 2050]"
+4,2050,Electronics-Young,los angelos,1120.68,560.34,2,"[2050, 2050]"
+4,2051,Home-Century,atlanta,351.96,175.98,2,"[2051, 2051]"
+4,2051,Home-Century,chicago,1055.8899999999999,211.17799999999997,5,"[2051, 2051, 2051, 2051, 2051]"
+4,2051,Home-Century,los angelos,117.32,117.32,1,[2051]
+4,2051,Home-Century,philadelphia,211.18,105.59,2,"[2051, 2051]"
+4,2052,Office-Year,chicago,5118.82,2559.41,2,"[2052, 2052]"
+4,2052,Office-Year,philadelphia,4387.5599999999995,1462.5199999999998,3,"[2052, 2052, 2052]"
+4,2053,Home-Ground,atlanta,2440.6,2440.6,1,[2053]
+4,2053,Home-Ground,chicago,6223.53,1555.8825,4,"[2053, 2053, 2053, 2053]"
+4,2053,Home-Ground,philadelphia,1830.45,1830.45,1,[2053]
+4,2054,Electronics-Above,atlanta,3511.9900000000002,1755.9950000000001,2,"[2054, 2054]"
+4,2054,Electronics-Above,chicago,3241.84,1620.92,2,"[2054, 2054]"
+4,2054,Electronics-Above,los angelos,1801.02,900.51,2,"[2054, 2054]"
+4,2054,Electronics-Above,philadelphia,1801.02,600.34,3,"[2054, 2054, 2054]"
+4,2055,Clothing-Politics,atlanta,86.3,86.3,1,[2055]
+4,2055,Clothing-Politics,los angelos,512.43,256.215,2,"[2055, 2055]"
+4,2055,Clothing-Politics,philadelphia,161.82,80.91,2,"[2055, 2055]"
+4,2056,Office-About,atlanta,5037.31,1679.1033333333335,3,"[2056, 2056, 2056]"
+4,2056,Office-About,chicago,0.0,0.0,1,[2056]
+4,2056,Office-About,los angelos,996.97,498.485,2,"[2056, 2056]"
+4,2056,Office-About,philadelphia,944.5,944.5,1,[2056]
+4,2057,Clothing-Identify,atlanta,1048.75,524.375,2,"[2057, 2057]"
+4,2057,Clothing-Identify,chicago,2534.48,844.8266666666667,3,"[2057, 2057, 2057]"
+4,2057,Clothing-Identify,philadelphia,1310.94,1310.94,1,[2057]
+4,2058,Home-Wear,atlanta,0.0,0.0,1,[2058]
+4,2058,Home-Wear,chicago,2667.0,1333.5,2,"[2058, 2058]"
+4,2058,Home-Wear,los angelos,3333.75,1111.25,3,"[2058, 2058, 2058]"
+4,2058,Home-Wear,phila,1066.8,1066.8,1,[2058]
+4,2059,Electronics-Clear,atlanta,2457.8399999999997,1228.9199999999998,2,"[2059, 2059]"
+4,2059,Electronics-Clear,philadelphia,0.0,0.0,2,"[2059, 2059]"
+4,2060,Office-Term,atlanta,2776.98,1388.49,2,"[2060, 2060]"
+4,2060,Office-Term,chicago,1225.14,1225.14,1,[2060]
+4,2060,Office-Term,los angelos,1143.46,571.73,2,"[2060, 2060]"
+4,2060,Office-Term,philadelphia,1225.14,1225.14,1,[2060]
+4,2061,Home-Quite,atlanta,179.93,179.93,1,[2061]
+4,2061,Home-Quite,philadelphia,599.76,599.76,1,[2061]
+4,2062,Office-Receive,atlanta,3840.0299999999997,1920.0149999999999,2,"[2062, 2062]"
+4,2062,Office-Receive,chicago,1548.4,774.2,2,"[2062, 2062]"
+4,2062,Office-Receive,los angelos,8299.42,2074.855,4,"[2062, 2062, 2062, 2062]"
+4,2063,Home-Good,chicago,2762.3,2762.3,1,[2063]
+4,2063,Home-Good,los angelos,1657.38,828.69,2,"[2063, 2063]"
+4,2063,Home-Good,philadelphia,3756.7300000000005,1252.2433333333336,3,"[2063, 2063, 2063]"
+4,2064,Electronics-Stop,atlanta,294.04,294.04,1,[2064]
+4,2064,Electronics-Stop,chicago,2881.59,720.3975,4,"[2064, 2064, 2064, 2064]"
+4,2064,Electronics-Stop,philadelphia,1705.43,852.715,2,"[2064, 2064]"
+4,2065,Office-Animal,atlanta,470.34,470.34,1,[2065]
+4,2065,Office-Animal,chicago,1693.22,1693.22,1,[2065]
+4,2065,Office-Animal,los angelos,1411.02,1411.02,1,[2065]
+4,2065,Office-Animal,philadelphia,0.0,0.0,1,[2065]
+4,2066,Office-Occur,atlanta,1754.6,877.3,2,"[2066, 2066]"
+4,2066,Office-Occur,chicago,516.06,258.03,2,"[2066, 2066]"
+4,2066,Office-Occur,philadelphia,2064.24,1032.12,2,"[2066, 2066]"
+4,2067,Clothing-Remain,chicago,523.71,523.71,1,[2067]
+4,2067,Clothing-Remain,philadelphia,872.85,872.85,1,[2067]
+4,2069,Clothing-Garden,chicago,232.39,232.39,1,[2069]
+4,2069,Clothing-Garden,philadelphia,836.6,836.6,1,[2069]
+4,2070,Clothing-About,atlanta,109.38,109.38,1,[2070]
+4,2070,Clothing-About,chicago,0.0,0.0,1,[2070]
+4,2070,Clothing-About,los angelos,34.18,17.09,2,"[2070, 2070]"
+4,2070,Clothing-About,philadelphia,54.69,54.69,1,[2070]
+4,2071,Clothing-Success,atlanta,1845.48,1845.48,1,[2071]
+4,2071,Clothing-Success,chicago,2891.25,963.75,3,"[2071, 2071, 2071]"
+4,2071,Clothing-Success,los angelos,615.16,615.16,1,[2071]
+4,2071,Clothing-Success,philadelphia,0.0,0.0,1,[2071]
+4,2072,Electronics-Become,atlanta,1008.72,1008.72,1,[2072]
+4,2072,Electronics-Become,chicago,420.3,420.3,1,[2072]
+4,2072,Electronics-Become,philadelphia,840.6,840.6,1,[2072]
+4,2073,Clothing-Executive,los angelos,499.43,499.43,1,[2073]
+4,2073,Clothing-Executive,philadelphia,2996.58,1498.29,2,"[2073, 2073]"
+4,2074,Clothing-Strong,chicago,659.5,659.5,1,[2074]
+4,2074,Clothing-Strong,los angelos,3891.05,1297.0166666666667,3,"[2074, 2074, 2074]"
+4,2074,Clothing-Strong,philadelphia,593.55,296.775,2,"[2074, 2074]"
+4,2075,Electronics-Letter,atlanta,5464.48,5464.48,1,[2075]
+4,2075,Electronics-Letter,chicago,3122.56,3122.56,1,[2075]
+4,2075,Electronics-Letter,los angelos,5308.35,2654.175,2,"[2075, 2075]"
+4,2075,Electronics-Letter,philadelphia,0.0,0.0,1,[2075]
+4,2076,Clothing-Affect,atlanta,806.07,806.07,1,[2076]
+4,2076,Clothing-Affect,los angelos,4836.42,4836.42,1,[2076]
+4,2076,Clothing-Affect,philadelphia,0.0,0.0,2,"[2076, 2076]"
+4,2077,Office-Ball,chicago,1123.66,1123.66,1,[2077]
+4,2077,Office-Ball,los angelos,3989.0,1329.6666666666667,3,"[2077, 2077, 2077]"
+4,2077,Office-Ball,philadelphia,2022.59,2022.59,1,[2077]
+4,2078,Electronics-Film,los angelos,426.03,426.03,1,[2078]
+4,2078,Electronics-Film,philadelphia,568.04,568.04,1,[2078]
+4,2079,Office-Who,atlanta,3136.79,1568.395,2,"[2079, 2079]"
+4,2079,Office-Who,chicago,2281.3,2281.3,1,[2079]
+4,2079,Office-Who,los angelos,8364.75,2788.25,3,"[2079, 2079, 2079]"
+4,2080,Office-Doctor,atlanta,12733.58,2546.716,5,"[2080, 2080, 2080, 2080, 2080]"
+4,2080,Office-Doctor,chicago,1664.52,1664.52,1,[2080]
+4,2080,Office-Doctor,los angelos,1331.62,665.81,2,"[2080, 2080]"
+4,2080,Office-Doctor,philadelphia,3329.04,3329.04,1,[2080]
+4,2081,Office-Light,atlanta,2238.66,2238.66,1,[2081]
+4,2081,Office-Light,philadelphia,3731.1,3731.1,1,[2081]
+4,2082,Office-Figure,atlanta,1972.84,657.6133333333333,3,"[2082, 2082, 2082]"
+4,2082,Office-Figure,chicago,533.2,266.6,2,"[2082, 2082]"
+4,2082,Office-Figure,philadelphia,853.12,426.56,2,"[2082, 2082]"
+4,2083,Clothing-Cut,atlanta,1382.69,1382.69,1,[2083]
+4,2083,Clothing-Cut,chicago,4224.88,1056.22,4,"[2083, 2083, 2083, 2083]"
+4,2083,Clothing-Cut,philadelphia,2304.48,2304.48,1,[2083]
+4,2084,Office-Stuff,atlanta,281.85,281.85,1,[2084]
+4,2084,Office-Stuff,chicago,2029.3200000000002,676.44,3,"[2084, 2084, 2084]"
+4,2085,Electronics-Officer,atlanta,581.16,581.16,1,[2085]
+4,2085,Electronics-Officer,chicago,726.45,726.45,1,[2085]
+4,2085,Electronics-Officer,los angelos,726.45,363.225,2,"[2085, 2085]"
+4,2085,Electronics-Officer,philadelphia,702.24,234.08,3,"[2085, 2085, 2085]"
+4,2086,Home-Of,atlanta,1430.56,1430.56,1,[2086]
+4,2086,Home-Of,chicago,8941.0,2980.3333333333335,3,"[2086, 2086, 2086]"
+4,2086,Home-Of,los angelos,4828.14,4828.14,1,[2086]
+4,2086,Home-Of,philadelphia,4649.32,2324.66,2,"[2086, 2086]"
+4,2087,Electronics-Rather,chicago,637.28,637.28,1,[2087]
+4,2087,Electronics-Rather,philadelphia,605.42,201.80666666666664,3,"[2087, 2087, 2087]"
+4,2088,Office-Evening,atlanta,0.0,0.0,1,[2088]
+4,2088,Office-Evening,los angelos,4256.1,2128.05,2,"[2088, 2088]"
+4,2088,Office-Evening,philadelphia,2553.66,2553.66,1,[2088]
+4,2089,Electronics-Action,chicago,2067.6,2067.6,1,[2089]
+4,2089,Electronics-Action,philadelphia,3142.75,1047.5833333333333,3,"[2089, 2089, 2089]"
+4,2091,Office-Mrs,atlanta,815.21,815.21,1,[2091]
+4,2091,Office-Mrs,chicago,4528.95,4528.95,1,[2091]
+4,2091,Office-Mrs,los angelos,1811.58,1811.58,1,[2091]
+4,2092,Electronics-Add,atlanta,1639.51,819.755,2,"[2092, 2092]"
+4,2092,Electronics-Add,chicago,964.42,482.21,2,"[2092, 2092]"
+4,2093,Home-Real,atlanta,680.35,680.35,1,[2093]
+4,2093,Home-Real,chicago,2267.82,2267.82,1,[2093]
+4,2094,Office-Fight,atlanta,1973.4,1973.4,1,[2094]
+4,2094,Office-Fight,chicago,1578.72,526.24,3,"[2094, 2094, 2094]"
+4,2094,Office-Fight,los angelos,2762.76,1381.38,2,"[2094, 2094]"
+4,2095,Home-Seem,atlanta,1963.16,981.58,2,"[2095, 2095]"
+4,2095,Home-Seem,chicago,490.79,490.79,1,[2095]
+4,2095,Home-Seem,los angelos,1472.37,736.185,2,"[2095, 2095]"
+4,2096,Office-Discuss,atlanta,1075.49,1075.49,1,[2096]
+4,2096,Office-Discuss,chicago,4100.3,1366.7666666666667,3,"[2096, 2096, 2096]"
+4,2096,Office-Discuss,los angelos,672.18,672.18,1,[2096]
+4,2097,Office-Recent,atlanta,4210.5,4210.5,1,[2097]
+4,2097,Office-Recent,los angelos,2273.67,2273.67,1,[2097]
+4,2097,Office-Recent,philadelphia,5894.700000000001,2947.3500000000004,2,"[2097, 2097]"
+4,2099,Electronics-Several,chicago,1292.64,646.32,2,"[2099, 2099]"
+5,2001,Electronics-Be,atlanta,824.7,412.35,2,"[2001, 2001]"
+5,2001,Electronics-Be,chicago,0.0,0.0,1,[2001]
+5,2005,Office-Huge,atlanta,0.0,0.0,1,[2005]
+5,2006,Office-Class,atlanta,198.0,198.0,1,[2006]
+5,2007,Clothing-Over,philadelphia,1983.5300000000002,991.7650000000001,2,"[2007, 2007]"
+5,2008,Electronics-Skin,atlanta,0.0,0.0,1,[2008]
+5,2009,Office-Raise,philadelphia,530.48,176.82666666666668,3,"[2009, 2009, 2009]"
+5,2010,Electronics-Themselves,chicago,0.0,0.0,1,[2010]
+5,2011,Electronics-Religious,chicago,737.53,737.53,1,[2011]
+5,2014,Clothing-Eat,chicago,738.9,738.9,1,[2014]
+5,2016,Home-He,atlanta,1162.87,581.435,2,"[2016, 2016]"
+5,2017,Electronics-Feeling,philadelphia,370.96,123.65333333333332,3,"[2017, 2017, 2017]"
+5,2018,Electronics-Nature,atlanta,1301.42,1301.42,1,[2018]
+5,2018,Electronics-Nature,philadelphia,2169.04,2169.04,1,[2018]
+5,2019,Home-History,philadelphia,933.93,933.93,1,[2019]
+5,2020,Electronics-Share,chicago,977.1600000000001,488.58000000000004,2,"[2020, 2020]"
+5,2020,Electronics-Share,philadelphia,1014.74,1014.74,1,[2020]
+5,2021,Clothing-Skill,atlanta,835.41,835.41,1,[2021]
+5,2021,Clothing-Skill,philadelphia,2506.23,2506.23,1,[2021]
+5,2022,Home-Economy,los angelos,604.06,604.06,1,[2022]
+5,2023,Home-Yeah,chicago,2254.9,2254.9,1,[2023]
+5,2023,Home-Yeah,philadelphia,1503.26,1503.26,1,[2023]
+5,2025,Electronics-Assume,atlanta,1258.29,1258.29,1,[2025]
+5,2028,Electronics-Take,atlanta,1020.7,1020.7,1,[2028]
+5,2028,Electronics-Take,los angelos,1275.88,1275.88,1,[2028]
+5,2029,Home-Yourself,chicago,12.16,12.16,1,[2029]
+5,2030,Clothing-First,atlanta,509.91,509.91,1,[2030]
+5,2030,Clothing-First,philadelphia,271.95,271.95,1,[2030]
+5,2031,Office-Develop,atlanta,904.48,904.48,1,[2031]
+5,2031,Office-Develop,los angelos,1130.6,1130.6,1,[2031]
+5,2032,Electronics-There,chicago,945.6,945.6,1,[2032]
+5,2032,Electronics-There,los angelos,6619.2,6619.2,1,[2032]
+5,2033,Clothing-Argue,l,836.25,836.25,1,[2033]
+5,2033,Clothing-Argue,philadelphia,836.25,836.25,1,[2033]
+5,2034,Clothing-Feel,atlanta,680.85,340.425,2,"[2034, 2034]"
+5,2035,Home-According,chicago,1619.98,1619.98,1,[2035]
+5,2036,Electronics-Candidate,philadelphia,871.92,435.96,2,"[2036, 2036]"
+5,2037,Clothing-Meeting,chicago,324.13,324.13,1,[2037]
+5,2039,Clothing-Need,los angelos,1562.3,1562.3,1,[2039]
+5,2039,Clothing-Need,philadelphia,976.44,976.44,1,[2039]
+5,2040,Clothing-Determine,philadelphia,55.26,55.26,1,[2040]
+5,2041,Home-Assume,los angelos,804.21,804.21,1,[2041]
+5,2043,Electronics-Practice,los angelos,4367.25,4367.25,1,[2043]
+5,2044,Office-Society,chicago,373.64,373.64,1,[2044]
+5,2047,Clothing-Hair,atlanta,1004.94,1004.94,1,[2047]
+5,2048,Electronics-Candidate,los angelos,715.26,715.26,1,[2048]
+5,2048,Electronics-Candidate,philadelphia,1072.89,1072.89,1,[2048]
+5,2049,Office-Easy,philadelphia,751.87,375.935,2,"[2049, 2049]"
+5,2050,Electronics-Young,los angelos,1681.02,840.51,2,"[2050, 2050]"
+5,2052,Office-Year,chicago,0.0,0.0,1,[2052]
+5,2052,Office-Year,los angelos,1170.02,1170.02,1,[2052]
+5,2053,Home-Ground,los angelos,3294.81,3294.81,1,[2053]
+5,2053,Home-Ground,philadelphia,2440.6,2440.6,1,[2053]
+5,2055,Clothing-Politics,philadelphia,194.18,194.18,1,[2055]
+5,2056,Office-About,atlanta,1049.44,1049.44,1,[2056]
+5,2057,Clothing-Identify,chicago,1747.92,1747.92,1,[2057]
+5,2058,Home-Wear,los angelos,1800.22,1800.22,1,[2058]
+5,2059,Electronics-Clear,los angelos,1638.56,1638.56,1,[2059]
+5,2059,Electronics-Clear,philadelphia,3891.58,1945.79,2,"[2059, 2059]"
+5,2060,Office-Term,atlanta,1102.63,1102.63,1,[2060]
+5,2060,Office-Term,los angelos,1796.87,598.9566666666666,3,"[2060, 2060, 2060]"
+5,2061,Home-Quite,atlanta,799.68,799.68,1,[2061]
+5,2061,Home-Quite,philadelphia,379.85,189.925,2,"[2061, 2061]"
+5,2062,Office-Receive,atlanta,3220.67,1610.335,2,"[2062, 2062]"
+5,2062,Office-Receive,chicago,990.98,990.98,1,[2062]
+5,2062,Office-Receive,los angelos,495.49,495.49,1,[2062]
+5,2063,Home-Good,chicago,0.0,0.0,1,[2063]
+5,2063,Home-Good,los angelos,883.94,883.94,1,[2063]
+5,2065,Office-Animal,chicago,2822.04,2822.04,1,[2065]
+5,2066,Office-Occur,atlanta,412.85,412.85,1,[2066]
+5,2066,Office-Occur,los angelos,2580.3,2580.3,1,[2066]
+5,2067,Clothing-Remain,atlanta,261.86,130.93,2,"[2067, 2067]"
+5,2067,Clothing-Remain,chicago,785.56,785.56,1,[2067]
+5,2070,Clothing-About,philadelphia,88.86,29.62,3,"[2070, 2070, 2070]"
+5,2071,Clothing-Success,atlanta,1845.48,1845.48,1,[2071]
+5,2071,Clothing-Success,chicago,615.16,615.16,1,[2071]
+5,2072,Electronics-Become,atlanta,672.48,672.48,1,[2072]
+5,2073,Clothing-Executive,chicago,1498.29,1498.29,1,[2073]
+5,2076,Clothing-Affect,los angelos,1450.93,1450.93,1,[2076]
+5,2077,Office-Ball,atlanta,1516.94,1516.94,1,[2077]
+5,2078,Electronics-Film,philadelphia,227.22,227.22,1,[2078]
+5,2079,Office-Who,atlanta,1901.08,1901.08,1,[2079]
+5,2079,Office-Who,philadelphia,950.54,475.27,2,"[2079, 2079]"
+5,2080,Office-Doctor,chicago,4993.56,4993.56,1,[2080]
+5,2080,Office-Doctor,los angelos,3329.04,1664.52,2,"[2080, 2080]"
+5,2081,Office-Light,chicago,1193.95,1193.95,1,[2081]
+5,2081,Office-Light,los angelos,0.0,0.0,1,[2081]
+5,2081,Office-Light,philadelphia,746.22,746.22,1,[2081]
+5,2082,Office-Figure,atlanta,0.0,0.0,1,[2082]
+5,2082,Office-Figure,chicago,639.84,639.84,1,[2082]
+5,2082,Office-Figure,philadelphia,799.8,799.8,1,[2082]
+5,2083,Clothing-Cut,atlanta,2074.03,2074.03,1,[2083]
+5,2083,Clothing-Cut,chicago,2304.48,2304.48,1,[2083]
+5,2083,Clothing-Cut,los angelos,2611.74,1305.87,2,"[2083, 2083]"
+5,2084,Office-Stuff,los angelos,0.0,0.0,1,[2084]
+5,2085,Electronics-Officer,chicago,242.15,242.15,1,[2085]
+5,2086,Home-Of,chicago,2682.3,2682.3,1,[2086]
+5,2087,Electronics-Rather,los angelos,318.64,318.64,1,[2087]
+5,2088,Office-Evening,atlanta,0.0,0.0,1,[2088]
+5,2088,Office-Evening,chicago,0.0,0.0,1,[2088]
+5,2088,Office-Evening,los angelos,567.48,567.48,1,[2088]
+5,2089,Electronics-Action,atlanta,3969.8,1323.2666666666667,3,"[2089, 2089, 2089]"
+5,2089,Electronics-Action,chicago,1116.51,558.255,2,"[2089, 2089]"
+5,2089,Electronics-Action,los angelos,0.0,0.0,1,[2089]
+5,2089,Electronics-Action,philadelphia,330.82,330.82,1,[2089]
+5,2091,Office-Mrs,atlanta,0.0,0.0,1,[2091]
+5,2092,Electronics-Add,atlanta,385.77,385.77,1,[2092]
+5,2092,Electronics-Add,los angelos,0.0,0.0,1,[2092]
+5,2093,Home-Real,atlanta,2419.01,2419.01,1,[2093]
+5,2093,Home-Real,chicago,0.0,0.0,1,[2093]
+5,2094,Office-Fight,los angelos,888.03,888.03,1,[2094]
+5,2094,Office-Fight,philadelphia,493.35,493.35,1,[2094]
+5,2095,Home-Seem,chicago,3533.6900000000005,1177.8966666666668,3,"[2095, 2095, 2095]"
+5,2095,Home-Seem,los angelos,1963.16,1963.16,1,[2095]
+5,2095,Home-Seem,philadelphia,1472.37,736.185,2,"[2095, 2095]"
+5,2096,Office-Discuss,atlanta,2688.72,2688.72,1,[2096]
+5,2097,Office-Recent,chicago,673.68,673.68,1,[2097]
+5,2099,Electronics-Several,chicago,4265.71,2132.855,2,"[2099, 2099]"
+5,2099,Electronics-Several,philadelphia,646.32,646.32,1,[2099]
+6,2000,Electronics-Be,chicago,4846.55,4846.55,1,[2000]
+6,2001,Electronics-Be,los angelos,1608.17,804.085,2,"[2001, 2001]"
+6,2003,Electronics-Training,atlanta,0.0,0.0,1,[2003]
+6,2003,Electronics-Training,chicago,385.18,385.18,1,[2003]
+6,2003,Electronics-Training,los angelos,0.0,0.0,1,[2003]
+6,2005,Office-Huge,chicago,428.78,428.78,1,[2005]
+6,2006,Office-Class,philadelphia,990.0,495.0,2,"[2006, 2006]"
+6,2007,Clothing-Over,chicago,2333.56,2333.56,1,[2007]
+6,2007,Clothing-Over,philadelphia,3850.37,1283.4566666666667,3,"[2007, 2007, 2007]"
+6,2008,Electronics-Skin,los angelos,106.54,106.54,1,[2008]
+6,2008,Electronics-Skin,philadelphia,66.59,66.59,1,[2008]
+6,2009,Office-Raise,chicago,0.0,0.0,1,[2009]
+6,2009,Office-Raise,philadelphia,0.0,0.0,2,"[2009, 2009]"
+6,2010,Electronics-Themselves,los angelos,389.2,194.6,2,"[2010, 2010]"
+6,2012,Clothing-Artist,chicago,2305.8,1152.9,2,"[2012, 2012]"
+6,2013,Office-Cultural,los angelos,1683.65,1683.65,1,[2013]
+6,2014,Clothing-Eat,chicago,1428.54,714.27,2,"[2014, 2014]"
+6,2014,Clothing-Eat,philadelphia,0.0,0.0,1,[2014]
+6,2015,Office-Itself,atlanta,2024.91,2024.91,1,[2015]
+6,2015,Office-Itself,los angelos,1214.95,1214.95,1,[2015]
+6,2016,Home-He,atlanta,646.04,646.04,1,[2016]
+6,2016,Home-He,philadelphia,0.0,0.0,1,[2016]
+6,2017,Electronics-Feeling,atlanta,2782.2,2782.2,1,[2017]
+6,2017,Electronics-Feeling,chicago,463.7,463.7,1,[2017]
+6,2017,Electronics-Feeling,los angelos,1669.32,1669.32,1,[2017]
+6,2018,Electronics-Nature,atlanta,542.26,542.26,1,[2018]
+6,2018,Electronics-Nature,chicago,2169.04,2169.04,1,[2018]
+6,2018,Electronics-Nature,philadelphia,2169.04,2169.04,1,[2018]
+6,2019,Home-History,chicago,747.14,747.14,1,[2019]
+6,2019,Home-History,los angelos,933.93,933.93,1,[2019]
+6,2020,Electronics-Share,los angelos,300.66,300.66,1,[2020]
+6,2021,Clothing-Skill,philadelphia,751.87,751.87,1,[2021]
+6,2022,Home-Economy,los angelos,536.94,536.94,1,[2022]
+6,2022,Home-Economy,philadelphia,0.0,0.0,1,[2022]
+6,2023,Home-Yeah,chicago,1879.08,1879.08,1,[2023]
+6,2023,Home-Yeah,los angelos,2254.9,2254.9,1,[2023]
+6,2023,Home-Yeah,philadelphia,1503.26,1503.26,1,[2023]
+6,2025,Electronics-Assume,chicago,671.09,671.09,1,[2025]
+6,2025,Electronics-Assume,philadelphia,754.97,754.97,1,[2025]
+6,2027,Home-Purpose,chicago,465.5,465.5,1,[2027]
+6,2028,Electronics-Take,los angelos,2551.76,2551.76,1,[2028]
+6,2030,Clothing-First,atlanta,339.94,339.94,1,[2030]
+6,2030,Clothing-First,chicago,135.98,67.99,2,"[2030, 2030]"
+6,2030,Clothing-First,philadelphia,509.91,509.91,1,[2030]
+6,2032,Electronics-There,philadelphia,3782.4,3782.4,1,[2032]
+6,2033,Clothing-Argue,los angelos,836.25,418.125,2,"[2033, 2033]"
+6,2034,Clothing-Feel,los angelos,217.87,217.87,1,[2034]
+6,2036,Electronics-Candidate,philadelphia,980.91,980.91,1,[2036]
+6,2038,Office-Soon,chicago,1853.02,1853.02,1,[2038]
+6,2038,Office-Soon,philadelphia,0.0,0.0,1,[2038]
+6,2041,Home-Assume,chicago,2171.37,2171.37,1,[2041]
+6,2042,Clothing-Lawyer,atlanta,167.61,167.61,1,[2042]
+6,2043,Electronics-Practice,atlanta,2969.73,1484.865,2,"[2043, 2043]"
+6,2043,Electronics-Practice,los angelos,3493.8,3493.8,1,[2043]
+6,2044,Office-Society,atlanta,207.58,207.58,1,[2044]
+6,2044,Office-Society,los angelos,1037.9,1037.9,1,[2044]
+6,2045,Office-Next,atlanta,280.93,280.93,1,[2045]
+6,2045,Office-Next,philadelphia,249.71,249.71,1,[2045]
+6,2047,Clothing-Hair,atlanta,1004.94,502.47,2,"[2047, 2047]"
+6,2047,Clothing-Hair,chicago,334.98,334.98,1,[2047]
+6,2048,Electronics-Candidate,chicago,357.63,357.63,1,[2048]
+6,2049,Office-Easy,chicago,5639.04,5639.04,1,[2049]
+6,2049,Office-Easy,los angelos,751.87,751.87,1,[2049]
+6,2051,Home-Century,los angelos,328.5,164.25,2,"[2051, 2051]"
+6,2052,Office-Year,chicago,0.0,0.0,1,[2052]
+6,2052,Office-Year,los angelos,731.26,731.26,1,[2052]
+6,2053,Home-Ground,atlanta,1464.36,1464.36,1,[2053]
+6,2056,Office-About,atlanta,944.5,944.5,1,[2056]
+6,2056,Office-About,los angelos,3148.32,3148.32,1,[2056]
+6,2057,Clothing-Identify,chicago,349.58,349.58,1,[2057]
+6,2057,Clothing-Identify,los angelos,1310.94,1310.94,1,[2057]
+6,2057,Clothing-Identify,philadelphia,1179.85,1179.85,1,[2057]
+6,2058,Home-Wear,atlanta,2000.25,2000.25,1,[2058]
+6,2058,Home-Wear,chicago,1600.2,1600.2,1,[2058]
+6,2058,Home-Wear,los angelos,666.75,666.75,1,[2058]
+6,2059,Electronics-Clear,atlanta,1228.92,1228.92,1,[2059]
+6,2059,Electronics-Clear,chicago,5632.55,2816.275,2,"[2059, 2059]"
+6,2060,Office-Term,atlanta,1633.52,1633.52,1,[2060]
+6,2060,Office-Term,chicago,1388.49,694.245,2,"[2060, 2060]"
+6,2062,Office-Receive,chicago,1672.27,1672.27,1,[2062]
+6,2062,Office-Receive,los angelos,6007.79,1501.9475,4,"[2062, 2062, 2062, 2062]"
+6,2063,Home-Good,atlanta,552.46,552.46,1,[2063]
+6,2065,Office-Animal,chicago,893.65,446.825,2,"[2065, 2065]"
+6,2066,Office-Occur,chicago,928.91,928.91,1,[2066]
+6,2067,Clothing-Remain,chicago,290.95,290.95,1,[2067]
+6,2067,Clothing-Remain,los angelos,465.52,465.52,1,[2067]
+6,2069,Clothing-Garden,atlanta,1766.1599999999999,883.0799999999999,2,"[2069, 2069]"
+6,2070,Clothing-About,atlanta,34.18,34.18,1,[2070]
+6,2070,Clothing-About,los angelos,102.54,102.54,1,[2070]
+6,2071,Clothing-Success,atlanta,1660.93,1660.93,1,[2071]
+6,2072,Electronics-Become,chicago,0.0,0.0,1,[2072]
+6,2072,Electronics-Become,los angelos,672.48,672.48,1,[2072]
+6,2073,Clothing-Executive,philadelphia,499.43,499.43,1,[2073]
+6,2074,Clothing-Strong,chicago,5935.5,2967.75,2,"[2074, 2074]"
+6,2074,Clothing-Strong,los angelos,1187.1,1187.1,1,[2074]
+6,2075,Electronics-Letter,atlanta,2341.92,2341.92,1,[2075]
+6,2075,Electronics-Letter,chicago,3122.56,1561.28,2,"[2075, 2075]"
+6,2076,Clothing-Affect,chicago,1289.71,1289.71,1,[2076]
+6,2077,Office-Ball,atlanta,2528.24,2528.24,1,[2077]
+6,2077,Office-Ball,chicago,505.65,505.65,1,[2077]
+6,2077,Office-Ball,los angelos,1685.49,1685.49,1,[2077]
+6,2078,Electronics-Film,chicago,766.86,383.43,2,"[2078, 2078]"
+6,2078,Electronics-Film,philadelphia,340.82,340.82,1,[2078]
+6,2079,Office-Who,atlanta,2566.46,2566.46,1,[2079]
+6,2080,Office-Doctor,atlanta,1331.62,1331.62,1,[2080]
+6,2080,Office-Doctor,chicago,6741.299999999999,2247.1,3,"[2080, 2080, 2080]"
+6,2080,Office-Doctor,los angelos,1331.62,665.81,2,"[2080, 2080]"
+6,2080,Office-Doctor,philadelphia,2496.78,2496.78,1,[2080]
+6,2081,Office-Light,philadelphia,2238.66,2238.66,1,[2081]
+6,2082,Office-Figure,los angelos,2612.6800000000003,522.5360000000001,5,"[2082, 2082, 2082, 2082, 2082]"
+6,2083,Clothing-Cut,los angelos,1229.06,1229.06,1,[2083]
+6,2083,Clothing-Cut,philadelphia,1229.06,1229.06,1,[2083]
+6,2084,Office-Stuff,atlanta,281.85,140.925,2,"[2084, 2084]"
+6,2084,Office-Stuff,los angelos,0.0,0.0,1,[2084]
+6,2085,Electronics-Officer,chicago,193.72,193.72,1,[2085]
+6,2085,Electronics-Officer,los angelos,1695.05,847.525,2,"[2085, 2085]"
+6,2085,Electronics-Officer,philadelphia,217.94,217.94,1,[2085]
+6,2086,Home-Of,atlanta,2414.07,2414.07,1,[2086]
+6,2086,Home-Of,chicago,2861.12,2861.12,1,[2086]
+6,2086,Home-Of,philadelphia,2682.3,2682.3,1,[2086]
+6,2087,Electronics-Rather,atlanta,382.37,382.37,1,[2087]
+6,2087,Electronics-Rather,los angelos,318.64,318.64,1,[2087]
+6,2087,Electronics-Rather,philadelphia,0.0,0.0,1,[2087]
+6,2088,Office-Evening,chicago,1986.1799999999998,993.0899999999999,2,"[2088, 2088]"
+6,2089,Electronics-Action,atlanta,2067.6,2067.6,1,[2089]
+6,2089,Electronics-Action,philadelphia,1240.56,1240.56,1,[2089]
+6,2091,Office-Mrs,los angelos,2173.9,2173.9,1,[2091]
+6,2093,Home-Real,chicago,680.35,680.35,1,[2093]
+6,2093,Home-Real,philadelphia,2267.82,1133.91,2,"[2093, 2093]"
+6,2094,Office-Fight,atlanta,493.35,493.35,1,[2094]
+6,2096,Office-Discuss,chicago,1814.89,1814.89,1,[2096]
+6,2097,Office-Recent,los angelos,2273.67,2273.67,1,[2097]
+7,2000,Electronics-Be,chicago,2907.93,2907.93,1,[2000]
+7,2000,Electronics-Be,los angelos,1938.62,1938.62,1,[2000]
+7,2005,Office-Huge,atlanta,1157.71,1157.71,1,[2005]
+7,2006,Office-Class,atl,792.0,792.0,1,[2006]
+7,2006,Office-Class,philadelphia,594.0,594.0,1,[2006]
+7,2007,Clothing-Over,chicago,2683.59,1341.795,2,"[2007, 2007]"
+7,2007,Clothing-Over,los angelos,2333.56,1166.78,2,"[2007, 2007]"
+7,2008,Electronics-Skin,atlanta,372.90000000000003,186.45000000000002,2,"[2008, 2008]"
+7,2009,Office-Raise,los angelos,172.41,86.205,2,"[2009, 2009]"
+7,2009,Office-Raise,philadelphia,0.0,0.0,1,[2009]
+7,2010,Electronics-Themselves,atlanta,210.17,210.17,1,[2010]
+7,2010,Electronics-Themselves,chicago,124.54,124.54,1,[2010]
+7,2010,Electronics-Themselves,los angelos,62.27,62.27,1,[2010]
+7,2010,Electronics-Themselves,philadelphia,62.27,62.27,1,[2010]
+7,2011,Electronics-Religious,philadelphia,1229.22,1229.22,1,[2011]
+7,2012,Clothing-Artist,atl,1121.74,1121.74,1,[2012]
+7,2012,Clothing-Artist,atlanta,1121.74,1121.74,1,[2012]
+7,2012,Clothing-Artist,chicago,2991.31,1495.655,2,"[2012, 2012]"
+7,2012,Clothing-Artist,philadelphia,1682.61,1682.61,1,[2012]
+7,2013,Office-Cultural,atlanta,1683.65,1683.65,1,[2013]
+7,2013,Office-Cultural,los angelos,748.29,748.29,1,[2013]
+7,2014,Clothing-Eat,chicago,197.04,197.04,1,[2014]
+7,2014,Clothing-Eat,los angelos,443.34,443.34,1,[2014]
+7,2015,Office-Itself,chicago,0.0,0.0,1,[2015]
+7,2015,Office-Itself,los angelos,1822.42,1822.42,1,[2015]
+7,2015,Office-Itself,philadelphia,2699.88,2699.88,1,[2015]
+7,2016,Home-He,los angelos,0.0,0.0,1,[2016]
+7,2017,Electronics-Feeling,atlanta,2133.02,1066.51,2,"[2017, 2017]"
+7,2017,Electronics-Feeling,chicago,3431.38,1143.7933333333333,3,"[2017, 2017, 2017]"
+7,2017,Electronics-Feeling,los angelos,0.0,0.0,1,[2017]
+7,2017,Electronics-Feeling,philadelphia,370.96,370.96,1,[2017]
+7,2018,Electronics-Nature,chicago,1084.52,1084.52,1,[2018]
+7,2018,Electronics-Nature,philadelphia,2711.3,2711.3,1,[2018]
+7,2019,Home-History,los angelos,4202.68,4202.68,1,[2019]
+7,2019,Home-History,philadelphia,1681.07,1681.07,1,[2019]
+7,2020,Electronics-Share,atlanta,2254.98,2254.98,1,[2020]
+7,2020,Electronics-Share,chicago,1879.15,1879.15,1,[2020]
+7,2021,Clothing-Skill,los angelos,835.41,835.41,1,[2021]
+7,2022,Home-Economy,chicago,604.06,604.06,1,[2022]
+7,2022,Home-Economy,los angelos,671.18,671.18,1,[2022]
+7,2023,Home-Yeah,atlanta,939.54,939.54,1,[2023]
+7,2023,Home-Yeah,chicago,11274.48,3758.16,3,"[2023, 2023, 2023]"
+7,2023,Home-Yeah,philadelphia,751.63,375.815,2,"[2023, 2023]"
+7,2025,Electronics-Assume,los angelos,0.0,0.0,1,[2025]
+7,2025,Electronics-Assume,philadelphia,1174.41,587.205,2,"[2025, 2025]"
+7,2026,Clothing-Use,chicago,423.12,211.56,2,"[2026, 2026]"
+7,2026,Clothing-Use,los angelos,423.12,423.12,1,[2026]
+7,2027,Home-Purpose,atlanta,775.83,775.83,1,[2027]
+7,2028,Electronics-Take,chicago,510.35,510.35,1,[2028]
+7,2028,Electronics-Take,los angelos,3125.9100000000003,1562.9550000000002,2,"[2028, 2028]"
+7,2028,Electronics-Take,philadelphia,1148.29,1148.29,1,[2028]
+7,2029,Home-Yourself,atlanta,13.51,13.51,1,[2029]
+7,2029,Home-Yourself,philadelphia,40.53,40.53,1,[2029]
+7,2030,Clothing-First,chicago,679.88,339.94,2,"[2030, 2030]"
+7,2031,Office-Develop,chicago,1356.72,678.36,2,"[2031, 2031]"
+7,2031,Office-Develop,los angelos,1695.9,1695.9,1,[2031]
+7,2031,Office-Develop,philadelphia,1356.72,1356.72,1,[2031]
+7,2032,Electronics-There,atlanta,756.48,378.24,2,"[2032, 2032]"
+7,2032,Electronics-There,los angelos,1512.96,1512.96,1,[2032]
+7,2033,Clothing-Argue,chicago,2257.88,1128.94,2,"[2033, 2033]"
+7,2034,Clothing-Feel,los angelos,245.11,245.11,1,[2034]
+7,2034,Clothing-Feel,philadelphia,326.81,326.81,1,[2034]
+7,2035,Home-According,atlanta,1799.98,899.99,2,"[2035, 2035]"
+7,2036,Electronics-Candidate,chicago,1634.8500000000001,544.95,3,"[2036, 2036, 2036]"
+7,2036,Electronics-Candidate,los angelos,1569.46,523.1533333333333,3,"[2036, 2036, 2036]"
+7,2036,Electronics-Candidate,philadelphia,348.77,348.77,1,[2036]
+7,2037,Clothing-Meeting,chicago,1440.56,1440.56,1,[2037]
+7,2037,Clothing-Meeting,philadelphia,0.0,0.0,1,[2037]
+7,2038,Office-Soon,atlanta,3335.44,3335.44,1,[2038]
+7,2038,Office-Soon,los angelos,1482.42,741.21,2,"[2038, 2038]"
+7,2038,Office-Soon,philadelphia,4354.6,1451.5333333333335,3,"[2038, 2038, 2038]"
+7,2039,Clothing-Need,chicago,4296.34,2148.17,2,"[2039, 2039]"
+7,2040,Clothing-Determine,atlanta,138.16,138.16,1,[2040]
+7,2040,Clothing-Determine,los angelos,31.09,31.09,1,[2040]
+7,2040,Clothing-Determine,philadelphia,276.32,92.10666666666667,3,"[2040, 2040, 2040]"
+7,2041,Home-Assume,atlanta,2251.79,1125.895,2,"[2041, 2041]"
+7,2041,Home-Assume,los angelos,3216.84,3216.84,1,[2041]
+7,2042,Clothing-Lawyer,atlanta,502.83,502.83,1,[2042]
+7,2042,Clothing-Lawyer,philadelphia,167.61,167.61,1,[2042]
+7,2043,Electronics-Practice,atlanta,698.76,698.76,1,[2043]
+7,2043,Electronics-Practice,philadelphia,1572.21,1572.21,1,[2043]
+7,2044,Office-Society,atlanta,207.58,207.58,1,[2044]
+7,2044,Office-Society,philadelphia,166.06,166.06,1,[2044]
+7,2045,Office-Next,philadelphia,842.78,842.78,1,[2045]
+7,2047,Clothing-Hair,atlanta,1674.9,837.45,2,"[2047, 2047]"
+7,2047,Clothing-Hair,philadelphia,334.98,334.98,1,[2047]
+7,2048,Electronics-Candidate,atlanta,2396.12,798.7066666666666,3,"[2048, 2048, 2048]"
+7,2048,Electronics-Candidate,los angelos,715.26,715.26,1,[2048]
+7,2049,Office-Easy,atlanta,0.0,0.0,1,[2049]
+7,2049,Office-Easy,los angelos,1503.74,751.87,2,"[2049, 2049]"
+7,2050,Electronics-Young,chicago,186.78,93.39,2,"[2050, 2050]"
+7,2050,Electronics-Young,los angelos,0.0,0.0,1,[2050]
+7,2051,Home-Century,chi,351.96,351.96,1,[2051]
+7,2051,Home-Century,philadelphia,586.5999999999999,293.29999999999995,2,"[2051, 2051]"
+7,2052,Office-Year,atlanta,2193.78,2193.78,1,[2052]
+7,2052,Office-Year,los angelos,2632.54,2632.54,1,[2052]
+7,2053,Home-Ground,atlanta,2318.5699999999997,1159.2849999999999,2,"[2053, 2053]"
+7,2053,Home-Ground,chi,1647.4,1647.4,1,[2053]
+7,2053,Home-Ground,chicago,0.0,0.0,1,[2053]
+7,2053,Home-Ground,los angelos,610.15,610.15,1,[2053]
+7,2053,Home-Ground,philadelphia,1830.45,1830.45,1,[2053]
+7,2054,Electronics-Above,los angelos,0.0,0.0,1,[2054]
+7,2054,Electronics-Above,philadelphia,900.51,900.51,1,[2054]
+7,2055,Clothing-Politics,atlanta,107.88,107.88,1,[2055]
+7,2056,Office-About,philadelphia,2623.6000000000004,1311.8000000000002,2,"[2056, 2056]"
+7,2057,Clothing-Identify,atlanta,1179.85,1179.85,1,[2057]
+7,2057,Clothing-Identify,chicago,830.26,415.13,2,"[2057, 2057]"
+7,2057,Clothing-Identify,los angelos,1747.92,1747.92,1,[2057]
+7,2057,Clothing-Identify,philadelphia,2097.5,1048.75,2,"[2057, 2057]"
+7,2058,Home-Wear,atlanta,600.08,600.08,1,[2058]
+7,2058,Home-Wear,chicago,1200.15,1200.15,1,[2058]
+7,2058,Home-Wear,philadelphia,2400.3,1200.15,2,"[2058, 2058]"
+7,2059,Electronics-Clear,chicago,1536.15,1536.15,1,[2059]
+7,2059,Electronics-Clear,philadelphia,1382.54,691.27,2,"[2059, 2059]"
+7,2060,Office-Term,chicago,735.08,735.08,1,[2060]
+7,2060,Office-Term,los angelos,2409.44,803.1466666666666,3,"[2060, 2060, 2060]"
+7,2060,Office-Term,philadelphia,1225.14,1225.14,1,[2060]
+7,2061,Home-Quite,atlanta,1199.52,1199.52,1,[2061]
+7,2061,Home-Quite,chicago,319.87,319.87,1,[2061]
+7,2062,Office-Receive,chicago,3096.8,3096.8,1,[2062]
+7,2063,Home-Good,los angelos,2320.33,1160.165,2,"[2063, 2063]"
+7,2064,Electronics-Stop,chicago,1323.18,1323.18,1,[2064]
+7,2064,Electronics-Stop,los angelos,0.0,0.0,1,[2064]
+7,2064,Electronics-Stop,philadelphia,0.0,0.0,1,[2064]
+7,2065,Office-Animal,atlanta,3010.18,1505.09,2,"[2065, 2065]"
+7,2065,Office-Animal,chicago,752.54,376.27,2,"[2065, 2065]"
+7,2066,Office-Occur,chicago,516.06,258.03,2,"[2066, 2066]"
+7,2066,Office-Occur,philadelphia,1032.12,1032.12,1,[2066]
+7,2067,Clothing-Remain,atlanta,1163.8,1163.8,1,[2067]
+7,2067,Clothing-Remain,philadelphia,465.52,465.52,1,[2067]
+7,2069,Clothing-Garden,philadelphia,790.13,395.065,2,"[2069, 2069]"
+7,2070,Clothing-About,atlanta,133.3,66.65,2,"[2070, 2070]"
+7,2070,Clothing-About,chicago,61.52,61.52,1,[2070]
+7,2070,Clothing-About,philadelphia,129.88,64.94,2,"[2070, 2070]"
+7,2071,Clothing-Success,chicago,615.16,615.16,1,[2071]
+7,2071,Clothing-Success,philadelphia,553.64,553.64,1,[2071]
+7,2072,Electronics-Become,atlanta,1176.84,588.42,2,"[2072, 2072]"
+7,2072,Electronics-Become,chicago,1008.72,1008.72,1,[2072]
+7,2073,Clothing-Executive,chicago,1498.29,1498.29,1,[2073]
+7,2073,Clothing-Executive,philadelphia,2646.98,1323.49,2,"[2073, 2073]"
+7,2074,Clothing-Strong,atlanta,1187.1,1187.1,1,[2074]
+7,2074,Clothing-Strong,philadelphia,2572.05,1286.025,2,"[2074, 2074]"
+7,2075,Electronics-Letter,atlanta,3903.2,3903.2,1,[2075]
+7,2076,Clothing-Affect,philadelphia,2418.21,2418.21,1,[2076]
+7,2077,Office-Ball,chicago,2134.9500000000003,711.6500000000001,3,"[2077, 2077, 2077]"
+7,2078,Electronics-Film,chicago,426.03,426.03,1,[2078]
+7,2078,Electronics-Film,philadelphia,0.0,0.0,1,[2078]
+7,2079,Office-Who,philadelphia,6558.73,2186.2433333333333,3,"[2079, 2079, 2079]"
+7,2080,Office-Doctor,philadelphia,1997.42,1997.42,1,[2080]
+7,2081,Office-Light,chicago,5820.52,1940.1733333333334,3,"[2081, 2081, 2081]"
+7,2081,Office-Light,los angelos,1492.44,1492.44,1,[2081]
+7,2081,Office-Light,philadelphia,3432.6099999999997,1716.3049999999998,2,"[2081, 2081]"
+7,2082,Office-Figure,atlanta,213.28,213.28,1,[2082]
+7,2082,Office-Figure,chicago,1066.4,1066.4,1,[2082]
+7,2082,Office-Figure,los angelos,1599.6000000000001,799.8000000000001,2,"[2082, 2082]"
+7,2082,Office-Figure,philadelphia,0.0,0.0,1,[2082]
+7,2083,Clothing-Cut,atlanta,0.0,0.0,1,[2083]
+7,2083,Clothing-Cut,philadelphia,4916.219999999999,2458.1099999999997,2,"[2083, 2083]"
+7,2084,Office-Stuff,chicago,845.55,845.55,1,[2084]
+7,2085,Electronics-Officer,atlanta,217.94,217.94,1,[2085]
+7,2085,Electronics-Officer,chicago,387.44,387.44,1,[2085]
+7,2085,Electronics-Officer,los angelos,484.3,484.3,1,[2085]
+7,2087,Electronics-Rather,atlanta,955.92,477.96,2,"[2087, 2087]"
+7,2087,Electronics-Rather,chicago,159.32,159.32,1,[2087]
+7,2087,Electronics-Rather,los angelos,159.32,159.32,1,[2087]
+7,2087,Electronics-Rather,philadelphia,0.0,0.0,1,[2087]
+7,2088,Office-Evening,los angelos,2128.05,2128.05,1,[2088]
+7,2089,Electronics-Action,atlanta,1240.56,1240.56,1,[2089]
+7,2089,Electronics-Action,los angelos,744.34,744.34,1,[2089]
+7,2091,Office-Mrs,atlanta,724.63,724.63,1,[2091]
+7,2091,Office-Mrs,chicago,1811.58,1811.58,1,[2091]
+7,2092,Electronics-Add,chicago,771.54,385.77,2,"[2092, 2092]"
+7,2092,Electronics-Add,los angelos,1157.3,1157.3,1,[2092]
+7,2093,Home-Real,philadelphia,1360.69,680.345,2,"[2093, 2093]"
+7,2094,Office-Fight,atlanta,2960.1,1480.05,2,"[2094, 2094]"
+7,2094,Office-Fight,los angelos,3749.46,1874.73,2,"[2094, 2094]"
+7,2094,Office-Fight,philadelphia,1578.72,1578.72,1,[2094]
+7,2095,Home-Seem,atlanta,1472.37,736.185,2,"[2095, 2095]"
+7,2095,Home-Seem,chicago,1472.37,1472.37,1,[2095]
+7,2095,Home-Seem,philadelphia,490.79,245.395,2,"[2095, 2095]"
+7,2097,Office-Recent,atlanta,673.68,336.84,2,"[2097, 2097]"
+7,2097,Office-Recent,los angelos,757.89,757.89,1,[2097]
+7,2097,Office-Recent,philadelphia,4210.5,4210.5,1,[2097]
+7,2099,Electronics-Several,chicago,5170.56,2585.28,2,"[2099, 2099]"
+7,2099,Electronics-Several,los angelos,1034.11,1034.11,1,[2099]
+7,2099,Electronics-Several,philadelphia,3490.13,3490.13,1,[2099]
+8,2000,Electronics-Be,chicago,1744.76,1744.76,1,[2000]
+8,2000,Electronics-Be,los angelos,3877.24,1938.62,2,"[2000, 2000]"
+8,2003,Electronics-Training,philadelphia,346.66,346.66,1,[2003]
+8,2005,Office-Huge,los angelos,2401.17,1200.585,2,"[2005, 2005]"
+8,2006,Office-Class,los angelos,1980.0,990.0,2,"[2006, 2006]"
+8,2007,Clothing-Over,los angelos,1750.17,1750.17,1,[2007]
+8,2007,Clothing-Over,philadelphia,525.05,525.05,1,[2007]
+8,2008,Electronics-Skin,philadelphia,0.0,0.0,1,[2008]
+8,2009,Office-Raise,philadelphia,106.1,106.1,1,[2009]
+8,2010,Electronics-Themselves,chicago,210.17,210.17,1,[2010]
+8,2011,Electronics-Religious,chicago,0.0,0.0,1,[2011]
+8,2013,Office-Cultural,chicago,3741.44,3741.44,1,[2013]
+8,2015,Office-Itself,philadelphia,1079.95,539.975,2,"[2015, 2015]"
+8,2016,Home-He,atlanta,872.15,872.15,1,[2016]
+8,2018,Electronics-Nature,atlanta,1952.1399999999999,976.0699999999999,2,"[2018, 2018]"
+8,2018,Electronics-Nature,los angelos,867.62,867.62,1,[2018]
+8,2019,Home-History,atlanta,1494.29,1494.29,1,[2019]
+8,2019,Home-History,philadelphia,0.0,0.0,1,[2019]
+8,2020,Electronics-Share,atlanta,676.49,676.49,1,[2020]
+8,2020,Electronics-Share,philadelphia,1352.99,1352.99,1,[2020]
+8,2021,Clothing-Skill,philadelphia,751.87,751.87,1,[2021]
+8,2022,Home-Economy,chicago,4295.549999999999,2147.7749999999996,2,"[2022, 2022]"
+8,2023,Home-Yeah,atlanta,5073.52,2536.76,2,"[2023, 2023]"
+8,2025,Electronics-Assume,atlanta,223.7,223.7,1,[2025]
+8,2025,Electronics-Assume,los angelos,671.09,671.09,1,[2025]
+8,2025,Electronics-Assume,philadelphia,447.39,447.39,1,[2025]
+8,2028,Electronics-Take,atlanta,2679.35,1339.675,2,"[2028, 2028]"
+8,2029,Home-Yourself,atlanta,27.02,27.02,1,[2029]
+8,2030,Clothing-First,atlanta,1019.82,1019.82,1,[2030]
+8,2031,Office-Develop,chicago,1130.6,1130.6,1,[2031]
+8,2031,Office-Develop,philadelphia,1356.72,1356.72,1,[2031]
+8,2032,Electronics-There,philadelphia,1702.08,1702.08,1,[2032]
+8,2036,Electronics-Candidate,chicago,392.36,392.36,1,[2036]
+8,2037,Clothing-Meeting,los angelos,648.25,648.25,1,[2037]
+8,2038,Office-Soon,atlanta,3150.13,1575.065,2,"[2038, 2038]"
+8,2039,Clothing-Need,chicago,3905.76,3905.76,1,[2039]
+8,2039,Clothing-Need,philadelphia,3905.76,1952.88,2,"[2039, 2039]"
+8,2040,Clothing-Determine,chicago,103.62,103.62,1,[2040]
+8,2040,Clothing-Determine,los angelos,110.53,110.53,1,[2040]
+8,2040,Clothing-Determine,philadelphia,27.63,27.63,1,[2040]
+8,2041,Home-Assume,chicago,1447.58,723.79,2,"[2041, 2041]"
+8,2042,Clothing-Lawyer,atlanta,167.61,167.61,1,[2042]
+8,2042,Clothing-Lawyer,philadelphia,670.44,670.44,1,[2042]
+8,2043,Electronics-Practice,chicago,786.1,786.1,1,[2043]
+8,2044,Office-Society,atlanta,207.58,207.58,1,[2044]
+8,2044,Office-Society,los angelos,560.47,560.47,1,[2044]
+8,2044,Office-Society,philadelphia,0.0,0.0,1,[2044]
+8,2048,Electronics-Candidate,atlanta,1072.89,1072.89,1,[2048]
+8,2048,Electronics-Candidate,los angelos,1645.1000000000001,822.5500000000001,2,"[2048, 2048]"
+8,2049,Office-Easy,chicago,0.0,0.0,1,[2049]
+8,2049,Office-Easy,los angelos,0.0,0.0,1,[2049]
+8,2050,Electronics-Young,atlanta,672.4100000000001,336.20500000000004,2,"[2050, 2050]"
+8,2050,Electronics-Young,los angelos,168.1,168.1,1,[2050]
+8,2051,Home-Century,los angelos,469.28,469.28,1,[2051]
+8,2052,Office-Year,atlanta,1316.27,1316.27,1,[2052]
+8,2052,Office-Year,los angelos,585.01,292.505,2,"[2052, 2052]"
+8,2052,Office-Year,philadelphia,731.26,731.26,1,[2052]
+8,2053,Home-Ground,chicago,1830.45,1830.45,1,[2053]
+8,2056,Office-About,chicago,839.55,839.55,1,[2056]
+8,2056,Office-About,los angelos,2518.66,1259.33,2,"[2056, 2056]"
+8,2057,Clothing-Identify,philadelphia,786.56,786.56,1,[2057]
+8,2058,Home-Wear,atlanta,0.0,0.0,1,[2058]
+8,2058,Home-Wear,chicago,4000.5,2000.25,2,"[2058, 2058]"
+8,2060,Office-Term,los angelos,1470.17,735.085,2,"[2060, 2060]"
+8,2064,Electronics-Stop,chicago,1470.2,1470.2,1,[2064]
+8,2064,Electronics-Stop,los angelos,558.6800000000001,279.34000000000003,2,"[2064, 2064]"
+8,2066,Office-Occur,philadelphia,2580.3,2580.3,1,[2066]
+8,2067,Clothing-Remain,chicago,261.86,261.86,1,[2067]
+8,2069,Clothing-Garden,atlanta,418.3,418.3,1,[2069]
+8,2070,Clothing-About,chicago,136.72,136.72,1,[2070]
+8,2070,Clothing-About,philadelphia,30.76,30.76,1,[2070]
+8,2071,Clothing-Success,los angelos,2214.57,1107.285,2,"[2071, 2071]"
+8,2071,Clothing-Success,philadelphia,553.64,553.64,1,[2071]
+8,2073,Clothing-Executive,philadelphia,1198.63,599.315,2,"[2073, 2073]"
+8,2074,Clothing-Strong,atlanta,1978.5,1978.5,1,[2074]
+8,2074,Clothing-Strong,los angelos,1055.2,1055.2,1,[2074]
+8,2075,Electronics-Letter,chicago,3122.56,3122.56,1,[2075]
+8,2076,Clothing-Affect,los angelos,2176.39,1088.195,2,"[2076, 2076]"
+8,2077,Office-Ball,chicago,0.0,0.0,1,[2077]
+8,2077,Office-Ball,philadelphia,561.83,561.83,1,[2077]
+8,2078,Electronics-Film,chicago,568.04,568.04,1,[2078]
+8,2079,Office-Who,philadelphia,950.54,950.54,1,[2079]
+8,2080,Office-Doctor,atlanta,3329.04,3329.04,1,[2080]
+8,2080,Office-Doctor,chicago,665.81,665.81,1,[2080]
+8,2080,Office-Doctor,los angelos,0.0,0.0,1,[2080]
+8,2080,Office-Doctor,philadelphia,2496.78,2496.78,1,[2080]
+8,2081,Office-Light,philadelphia,0.0,0.0,1,[2081]
+8,2082,Office-Figure,chicago,799.8,799.8,1,[2082]
+8,2083,Clothing-Cut,los angelos,768.16,768.16,1,[2083]
+8,2084,Office-Stuff,philadelphia,0.0,0.0,1,[2084]
+8,2085,Electronics-Officer,philadelphia,0.0,0.0,1,[2085]
+8,2087,Electronics-Rather,philadelphia,509.82,509.82,1,[2087]
+8,2088,Office-Evening,atlanta,709.35,709.35,1,[2088]
+8,2089,Electronics-Action,chicago,413.52,413.52,1,[2089]
+8,2091,Office-Mrs,los angelos,905.79,905.79,1,[2091]
+8,2092,Electronics-Add,los angelos,1928.84,1928.84,1,[2092]
+8,2092,Electronics-Add,philadelphia,1446.63,723.315,2,"[2092, 2092]"
+8,2093,Home-Real,atlanta,0.0,0.0,1,[2093]
+8,2093,Home-Real,chicago,2721.38,2721.38,1,[2093]
+8,2093,Home-Real,los angelos,2267.82,2267.82,1,[2093]
+8,2093,Home-Real,philadelphia,3023.76,3023.76,1,[2093]
+8,2094,Office-Fight,atlanta,888.03,888.03,1,[2094]
+8,2095,Home-Seem,philadelphia,981.58,981.58,1,[2095]
+8,2097,Office-Recent,chicago,2273.67,2273.67,1,[2097]
+12,2000,Electronics-Be,atlanta,872.38,872.38,1,[2000]
+12,2000,Electronics-Be,los angelos,969.31,969.31,1,[2000]
+12,2001,Electronics-Be,los angelos,2061.75,1030.875,2,"[2001, 2001]"
+12,2001,Electronics-Be,philadelphia,1814.3400000000001,907.1700000000001,2,"[2001, 2001]"
+12,2003,Electronics-Training,atlanta,2234.04,1117.02,2,"[2003, 2003]"
+12,2003,Electronics-Training,chicago,3389.58,1129.86,3,"[2003, 2003, 2003]"
+12,2003,Electronics-Training,philadelphia,693.32,693.32,1,[2003]
+12,2005,Office-Huge,atlanta,1286.34,1286.34,1,[2005]
+12,2005,Office-Huge,chicago,385.9,385.9,1,[2005]
+12,2005,Office-Huge,philadelphia,686.05,686.05,1,[2005]
+12,2005,Office-Huge,phily,428.78,428.78,1,[2005]
+12,2006,Office-Class,atlanta,594.0,594.0,1,[2006]
+12,2006,Office-Class,chicago,0.0,0.0,1,[2006]
+12,2006,Office-Class,los angelos,0.0,0.0,1,[2006]
+12,2006,Office-Class,philadelphia,673.2,336.6,2,"[2006, 2006]"
+12,2007,Clothing-Over,atl,1050.1,1050.1,1,[2007]
+12,2007,Clothing-Over,atlanta,2100.2,1050.1,2,"[2007, 2007]"
+12,2007,Clothing-Over,los angelos,583.39,583.39,1,[2007]
+12,2007,Clothing-Over,philadelphia,2333.56,2333.56,1,[2007]
+12,2008,Electronics-Skin,atlanta,466.13,466.13,1,[2008]
+12,2008,Electronics-Skin,chicago,332.95,332.95,1,[2008]
+12,2008,Electronics-Skin,philadelphia,266.36,133.18,2,"[2008, 2008]"
+12,2009,Office-Raise,chicago,251.98000000000002,125.99000000000001,2,"[2009, 2009]"
+12,2009,Office-Raise,los angelos,318.29,159.145,2,"[2009, 2009]"
+12,2009,Office-Raise,philadelphia,53.05,26.525,2,"[2009, 2009]"
+12,2010,Electronics-Themselves,chicago,544.88,544.88,1,[2010]
+12,2011,Electronics-Religious,atlanta,327.79,327.79,1,[2011]
+12,2011,Electronics-Religious,chicago,1638.96,819.48,2,"[2011, 2011]"
+12,2011,Electronics-Religious,philadelphia,3277.92,1092.64,3,"[2011, 2011, 2011]"
+12,2012,Clothing-Artist,atlanta,3739.14,1869.57,2,"[2012, 2012]"
+12,2012,Clothing-Artist,los angelos,1121.74,1121.74,1,[2012]
+12,2012,Clothing-Artist,philadelphia,560.87,560.87,1,[2012]
+12,2013,Office-Cultural,atlanta,8792.380000000001,2930.7933333333335,3,"[2013, 2013, 2013]"
+12,2013,Office-Cultural,chicago,0.0,0.0,1,[2013]
+12,2013,Office-Cultural,los angelos,5612.16,1870.72,3,"[2013, 2013, 2013]"
+12,2014,Clothing-Eat,atlanta,221.67,221.67,1,[2014]
+12,2014,Clothing-Eat,chicago,1231.5,615.75,2,"[2014, 2014]"
+12,2014,Clothing-Eat,los angelos,0.0,0.0,1,[2014]
+12,2014,Clothing-Eat,philadelphia,1231.5,410.5,3,"[2014, 2014, 2014]"
+12,2015,Office-Itself,atlanta,1619.93,1619.93,1,[2015]
+12,2015,Office-Itself,chicago,4049.82,4049.82,1,[2015]
+12,2015,Office-Itself,los angelos,0.0,0.0,1,[2015]
+12,2015,Office-Itself,philadelphia,2699.88,2699.88,1,[2015]
+12,2016,Home-He,atlanta,2874.88,574.976,5,"[2016, 2016, 2016, 2016, 2016]"
+12,2016,Home-He,los angelos,2584.16,2584.16,1,[2016]
+12,2017,Electronics-Feeling,atlanta,741.92,370.96,2,"[2017, 2017]"
+12,2017,Electronics-Feeling,chicago,927.4,463.7,2,"[2017, 2017]"
+12,2017,Electronics-Feeling,philadelphia,463.7,463.7,1,[2017]
+12,2018,Electronics-Nature,atlanta,542.26,542.26,1,[2018]
+12,2018,Electronics-Nature,los angelos,1084.52,1084.52,1,[2018]
+12,2018,Electronics-Nature,philadelphia,1301.42,650.71,2,"[2018, 2018]"
+12,2019,Home-History,atlanta,5603.58,2801.79,2,"[2019, 2019]"
+12,2020,Electronics-Share,chicago,3006.6400000000003,1503.3200000000002,2,"[2020, 2020]"
+12,2020,Electronics-Share,los angelos,0.0,0.0,1,[2020]
+12,2020,Electronics-Share,philadelphia,0.0,0.0,1,[2020]
+12,2021,Clothing-Skill,los angelos,1670.82,835.41,2,"[2021, 2021]"
+12,2022,Home-Economy,chicago,1073.89,1073.89,1,[2022]
+12,2022,Home-Economy,los angelos,1073.89,1073.89,1,[2022]
+12,2022,Home-Economy,philadelphia,5369.44,2684.72,2,"[2022, 2022]"
+12,2023,Home-Yeah,philadelphia,1503.26,751.63,2,"[2023, 2023]"
+12,2025,Electronics-Assume,atlanta,1509.95,503.31666666666666,3,"[2025, 2025, 2025]"
+12,2025,Electronics-Assume,los angelos,503.32,503.32,1,[2025]
+12,2025,Electronics-Assume,philadelphia,1621.8,540.6,3,"[2025, 2025, 2025]"
+12,2026,Clothing-Use,atlanta,401.96000000000004,200.98000000000002,2,"[2026, 2026]"
+12,2026,Clothing-Use,chicago,507.74,507.74,1,[2026]
+12,2026,Clothing-Use,philadelphia,338.5,338.5,1,[2026]
+12,2027,Home-Purpose,atlanta,646.53,215.51,3,"[2027, 2027, 2027]"
+12,2027,Home-Purpose,chicago,1189.6100000000001,396.5366666666667,3,"[2027, 2027, 2027]"
+12,2028,Electronics-Take,atlanta,1531.06,1531.06,1,[2028]
+12,2028,Electronics-Take,chicago,2551.76,2551.76,1,[2028]
+12,2028,Electronics-Take,philadelphia,637.94,318.97,2,"[2028, 2028]"
+12,2029,Home-Yourself,atlanta,13.51,13.51,1,[2029]
+12,2029,Home-Yourself,chicago,27.02,27.02,1,[2029]
+12,2030,Clothing-First,chicago,1733.69,577.8966666666666,3,"[2030, 2030, 2030]"
+12,2030,Clothing-First,philadelphia,407.93,407.93,1,[2030]
+12,2031,Office-Develop,atlanta,2939.56,1469.78,2,"[2031, 2031]"
+12,2031,Office-Develop,chicago,452.24,452.24,1,[2031]
+12,2031,Office-Develop,los angelos,1695.9,1695.9,1,[2031]
+12,2031,Office-Develop,philadelphia,3222.21,1611.105,2,"[2031, 2031]"
+12,2032,Electronics-There,los angelos,0.0,0.0,2,"[2032, 2032]"
+12,2032,Electronics-There,philadelphia,3782.4,3782.4,1,[2032]
+12,2033,Clothing-Argue,atlanta,5184.75,1728.25,3,"[2033, 2033, 2033]"
+12,2033,Clothing-Argue,chicago,2508.75,2508.75,1,[2033]
+12,2033,Clothing-Argue,los angelos,669.0,669.0,1,[2033]
+12,2033,Clothing-Argue,philadelphia,752.62,752.62,1,[2033]
+12,2034,Clothing-Feel,atlanta,408.51,408.51,1,[2034]
+12,2034,Clothing-Feel,los angelos,326.81,326.81,1,[2034]
+12,2035,Home-According,chicago,1619.98,1619.98,1,[2035]
+12,2035,Home-According,los angelos,2699.97,2699.97,1,[2035]
+12,2036,Electronics-Candidate,atlanta,588.55,588.55,1,[2036]
+12,2036,Electronics-Candidate,philadelphia,392.36,392.36,1,[2036]
+12,2037,Clothing-Meeting,philadelphia,288.11,288.11,1,[2037]
+12,2038,Office-Soon,atlanta,4817.85,1605.95,3,"[2038, 2038, 2038]"
+12,2038,Office-Soon,chicago,3150.13,1575.065,2,"[2038, 2038]"
+12,2038,Office-Soon,los angelos,0.0,0.0,1,[2038]
+12,2038,Office-Soon,philadelphia,1667.72,1667.72,1,[2038]
+12,2039,Clothing-Need,la,878.8,878.8,1,[2039]
+12,2040,Clothing-Determine,atlanta,127.8,42.6,3,"[2040, 2040, 2040]"
+12,2040,Clothing-Determine,chicago,124.34,62.17,2,"[2040, 2040]"
+12,2040,Clothing-Determine,los angelos,34.54,34.54,1,[2040]
+12,2040,Clothing-Determine,philadelphia,103.62,103.62,1,[2040]
+12,2041,Home-Assume,atlanta,6433.68,3216.84,2,"[2041, 2041]"
+12,2042,Clothing-Lawyer,atlanta,335.22,167.61,2,"[2042, 2042]"
+12,2042,Clothing-Lawyer,chicago,1005.66,1005.66,1,[2042]
+12,2042,Clothing-Lawyer,philadelphia,167.61,167.61,1,[2042]
+12,2043,Electronics-Practice,atlanta,6987.6,2329.2000000000003,3,"[2043, 2043, 2043]"
+12,2043,Electronics-Practice,los angelos,786.1,786.1,1,[2043]
+12,2043,Electronics-Practice,philadelphia,8385.12,2795.0400000000004,3,"[2043, 2043, 2043]"
+12,2044,Office-Society,atlanta,560.47,560.47,1,[2044]
+12,2044,Office-Society,chicago,830.32,830.32,1,[2044]
+12,2044,Office-Society,los angelos,166.06,166.06,1,[2044]
+12,2044,Office-Society,philadelphia,1307.75,653.875,2,"[2044, 2044]"
+12,2045,Office-Next,atlanta,842.78,421.39,2,"[2045, 2045]"
+12,2045,Office-Next,philadelphia,780.35,390.175,2,"[2045, 2045]"
+12,2047,Clothing-Hair,atlanta,2478.8500000000004,1239.4250000000002,2,"[2047, 2047]"
+12,2047,Clothing-Hair,chicago,669.96,669.96,1,[2047]
+12,2047,Clothing-Hair,philadelphia,803.95,803.95,1,[2047]
+12,2048,Electronics-Candidate,chicago,1287.47,1287.47,1,[2048]
+12,2048,Electronics-Candidate,los angelos,357.63,357.63,1,[2048]
+12,2048,Electronics-Candidate,philadelphia,679.5,226.5,3,"[2048, 2048, 2048]"
+12,2049,Office-Easy,atlanta,1691.71,1691.71,1,[2049]
+12,2049,Office-Easy,chicago,2443.59,814.5300000000001,3,"[2049, 2049, 2049]"
+12,2049,Office-Easy,los angelos,845.86,845.86,1,[2049]
+12,2049,Office-Easy,philadelphia,6766.84,3383.42,2,"[2049, 2049]"
+12,2050,Electronics-Young,atlanta,1120.68,560.34,2,"[2050, 2050]"
+12,2050,Electronics-Young,chicago,168.1,168.1,1,[2050]
+12,2050,Electronics-Young,los angelos,168.1,84.05,2,"[2050, 2050]"
+12,2050,Electronics-Young,philadelphia,1120.68,373.56,3,"[2050, 2050, 2050]"
+12,2051,Home-Century,atlanta,527.94,527.94,1,[2051]
+12,2051,Home-Century,chicago,93.86,46.93,2,"[2051, 2051]"
+12,2051,Home-Century,philadelphia,434.08,217.04,2,"[2051, 2051]"
+12,2052,Office-Year,chicago,2193.78,2193.78,1,[2052]
+12,2052,Office-Year,los angelos,2925.04,731.26,4,"[2052, 2052, 2052, 2052]"
+12,2053,Home-Ground,chicago,1830.45,915.225,2,"[2053, 2053]"
+12,2053,Home-Ground,los angelos,4637.14,1545.7133333333334,3,"[2053, 2053, 2053]"
+12,2054,Electronics-Above,atlanta,1620.92,1620.92,1,[2054]
+12,2054,Electronics-Above,chicago,0.0,0.0,1,[2054]
+12,2054,Electronics-Above,los angelos,900.51,900.51,1,[2054]
+12,2055,Clothing-Politics,atlanta,53.94,53.94,1,[2055]
+12,2055,Clothing-Politics,chicago,53.94,26.97,2,"[2055, 2055]"
+12,2056,Office-About,atlanta,524.72,524.72,1,[2056]
+12,2056,Office-About,chicago,944.5,944.5,1,[2056]
+12,2056,Office-About,los angelos,2361.24,2361.24,1,[2056]
+12,2056,Office-About,philadelphia,2623.6000000000004,1311.8000000000002,2,"[2056, 2056]"
+12,2057,Clothing-Identify,atlanta,1310.94,1310.94,1,[2057]
+12,2057,Clothing-Identify,chicago,1179.85,1179.85,1,[2057]
+12,2057,Clothing-Identify,los angelos,3321.05,830.2625,4,"[2057, 2057, 2057, 2057]"
+12,2057,Clothing-Identify,philadelphia,1092.4499999999998,546.2249999999999,2,"[2057, 2057]"
+12,2058,Home-Wear,atlanta,3733.8,1866.9,2,"[2058, 2058]"
+12,2058,Home-Wear,chicago,2667.0,2667.0,1,[2058]
+12,2058,Home-Wear,los angelos,1600.1999999999998,800.0999999999999,2,"[2058, 2058]"
+12,2059,Electronics-Clear,los angelos,921.69,921.69,1,[2059]
+12,2059,Electronics-Clear,philadelphia,1945.79,972.895,2,"[2059, 2059]"
+12,2060,Office-Term,atlanta,326.7,326.7,1,[2060]
+12,2060,Office-Term,los angelos,408.38,408.38,1,[2060]
+12,2060,Office-Term,philadelphia,0.0,0.0,1,[2060]
+12,2061,Home-Quite,atlanta,359.86,359.86,1,[2061]
+12,2061,Home-Quite,chicago,799.68,799.68,1,[2061]
+12,2061,Home-Quite,los angelos,639.74,639.74,1,[2061]
+12,2061,Home-Quite,philadelphia,359.86,359.86,1,[2061]
+12,2062,Office-Receive,atlanta,1114.85,1114.85,1,[2062]
+12,2062,Office-Receive,chicago,1858.08,1858.08,1,[2062]
+12,2062,Office-Receive,los angelos,1796.1399999999999,898.0699999999999,2,"[2062, 2062]"
+12,2062,Office-Receive,philadelphia,7680.06,1536.0120000000002,5,"[2062, 2062, 2062, 2062, 2062]"
+12,2063,Home-Good,chicago,2209.84,2209.84,1,[2063]
+12,2063,Home-Good,philadelphia,1767.8700000000001,883.9350000000001,2,"[2063, 2063]"
+12,2064,Electronics-Stop,atlanta,294.04,294.04,1,[2064]
+12,2064,Electronics-Stop,chicago,1146.76,573.38,2,"[2064, 2064]"
+12,2064,Electronics-Stop,los angelos,882.12,882.12,1,[2064]
+12,2065,Office-Animal,los angelos,1881.36,1881.36,1,[2065]
+12,2065,Office-Animal,philadelphia,1222.8799999999999,407.6266666666666,3,"[2065, 2065, 2065]"
+12,2066,Office-Occur,atlanta,1032.12,1032.12,1,[2066]
+12,2066,Office-Occur,chicago,2580.3,860.1,3,"[2066, 2066, 2066]"
+12,2066,Office-Occur,los angelos,3096.36,1548.18,2,"[2066, 2066]"
+12,2067,Clothing-Remain,los angelos,523.71,261.855,2,"[2067, 2067]"
+12,2069,Clothing-Garden,atlanta,627.45,627.45,1,[2069]
+12,2069,Clothing-Garden,chicago,0.0,0.0,1,[2069]
+12,2070,Clothing-About,chicago,30.76,30.76,1,[2070]
+12,2070,Clothing-About,philadelphia,61.52,61.52,1,[2070]
+12,2071,Clothing-Success,atlanta,1968.51,1968.51,1,[2071]
+12,2071,Clothing-Success,chicago,3321.87,830.4675,4,"[2071, 2071, 2071, 2071]"
+12,2071,Clothing-Success,unknown city,984.26,984.26,1,[2071]
+12,2072,Electronics-Become,atlanta,1008.72,1008.72,1,[2072]
+12,2072,Electronics-Become,chicago,1134.81,1134.81,1,[2072]
+12,2072,Electronics-Become,los angelos,2185.56,1092.78,2,"[2072, 2072]"
+12,2073,Clothing-Executive,chicago,799.09,799.09,1,[2073]
+12,2073,Clothing-Executive,los angelos,499.43,499.43,1,[2073]
+12,2073,Clothing-Executive,philadelphia,1997.72,1997.72,1,[2073]
+12,2074,Clothing-Strong,los angelos,659.5,659.5,1,[2074]
+12,2075,Electronics-Letter,atlanta,2341.92,1170.96,2,"[2075, 2075]"
+12,2075,Electronics-Letter,chicago,702.58,702.58,1,[2075]
+12,2075,Electronics-Letter,los angelos,3044.5,1522.25,2,"[2075, 2075]"
+12,2075,Electronics-Letter,philadelphia,3278.69,1639.345,2,"[2075, 2075]"
+12,2076,Clothing-Affect,atlanta,2418.21,1209.105,2,"[2076, 2076]"
+12,2076,Clothing-Affect,chicago,725.46,362.73,2,"[2076, 2076]"
+12,2076,Clothing-Affect,philadelphia,5642.49,2821.245,2,"[2076, 2076]"
+12,2077,Office-Ball,atlanta,1460.76,486.92,3,"[2077, 2077, 2077]"
+12,2077,Office-Ball,philadelphia,505.65,505.65,1,[2077]
+12,2078,Electronics-Film,atlanta,255.62,127.81,2,"[2078, 2078]"
+12,2078,Electronics-Film,chicago,837.86,418.93,2,"[2078, 2078]"
+12,2078,Electronics-Film,la,142.01,142.01,1,[2078]
+12,2078,Electronics-Film,los angelos,0.0,0.0,1,[2078]
+12,2078,Electronics-Film,unknown city,568.04,568.04,1,[2078]
+12,2079,Office-Who,atlanta,6083.46,3041.73,2,"[2079, 2079]"
+12,2079,Office-Who,chicago,3802.16,1901.08,2,"[2079, 2079]"
+12,2080,Office-Doctor,atlanta,0.0,0.0,1,[2080]
+12,2080,Office-Doctor,chicago,3329.04,3329.04,1,[2080]
+12,2080,Office-Doctor,philadelphia,3745.17,3745.17,1,[2080]
+12,2081,Office-Light,atlanta,2686.39,2686.39,1,[2081]
+12,2081,Office-Light,los angelos,1193.95,1193.95,1,[2081]
+12,2081,Office-Light,philadelphia,2089.42,1044.71,2,"[2081, 2081]"
+12,2082,Office-Figure,atlanta,266.6,266.6,1,[2082]
+12,2083,Clothing-Cut,atlanta,2688.56,896.1866666666666,3,"[2083, 2083, 2083]"
+12,2083,Clothing-Cut,chicago,2304.48,2304.48,1,[2083]
+12,2083,Clothing-Cut,los angelos,3072.64,1536.32,2,"[2083, 2083]"
+12,2083,Clothing-Cut,philadelphia,1229.06,1229.06,1,[2083]
+12,2084,Office-Stuff,atlanta,1409.25,704.625,2,"[2084, 2084]"
+12,2084,Office-Stuff,chicago,1127.4,375.8,3,"[2084, 2084, 2084]"
+12,2085,Electronics-Officer,atlanta,1452.9,1452.9,1,[2085]
+12,2085,Electronics-Officer,chicago,1041.25,520.625,2,"[2085, 2085]"
+12,2085,Electronics-Officer,philadelphia,0.0,0.0,2,"[2085, 2085]"
+12,2086,Home-Of,chicago,0.0,0.0,1,[2086]
+12,2086,Home-Of,los angelos,3218.76,1609.38,2,"[2086, 2086]"
+12,2086,Home-Of,philadelphia,894.1,894.1,1,[2086]
+12,2087,Electronics-Rather,atlanta,0.0,0.0,1,[2087]
+12,2087,Electronics-Rather,los angelos,1433.88,716.94,2,"[2087, 2087]"
+12,2088,Office-Evening,atlanta,3546.75,3546.75,1,[2088]
+12,2088,Office-Evening,chicago,0.0,0.0,1,[2088]
+12,2089,Electronics-Action,chicago,2398.42,1199.21,2,"[2089, 2089]"
+12,2089,Electronics-Action,los angelos,827.04,827.04,1,[2089]
+12,2091,Office-Mrs,atlanta,6340.53,3170.265,2,"[2091, 2091]"
+12,2091,Office-Mrs,los angelos,2717.37,2717.37,1,[2091]
+12,2091,Office-Mrs,philadelphia,2717.37,1358.685,2,"[2091, 2091]"
+12,2092,Electronics-Add,chicago,867.98,867.98,1,[2092]
+12,2092,Electronics-Add,los angelos,1350.19,675.095,2,"[2092, 2092]"
+12,2093,Home-Real,atlanta,755.94,755.94,1,[2093]
+12,2093,Home-Real,chicago,4838.02,1612.6733333333334,3,"[2093, 2093, 2093]"
+12,2093,Home-Real,los angelos,3779.7000000000003,944.9250000000001,4,"[2093, 2093, 2093, 2093]"
+12,2093,Home-Real,philadelphia,755.94,377.97,2,"[2093, 2093]"
+12,2094,Office-Fight,atlanta,1480.0500000000002,740.0250000000001,2,"[2094, 2094]"
+12,2094,Office-Fight,chicago,444.02,444.02,1,[2094]
+12,2094,Office-Fight,los angelos,493.35,246.675,2,"[2094, 2094]"
+12,2094,Office-Fight,philadelphia,493.35,493.35,1,[2094]
+12,2095,Home-Seem,atlanta,4417.11,2208.555,2,"[2095, 2095]"
+12,2095,Home-Seem,philadelphia,2453.95,2453.95,1,[2095]
+12,2096,Office-Discuss,atlanta,3024.8100000000004,1512.4050000000002,2,"[2096, 2096]"
+12,2096,Office-Discuss,chicago,3024.81,3024.81,1,[2096]
+12,2096,Office-Discuss,la,2688.72,2688.72,1,[2096]
+12,2097,Office-Recent,chicago,1347.36,1347.36,1,[2097]
+12,2097,Office-Recent,los angelos,3031.56,3031.56,1,[2097]
+12,2099,Electronics-Several,atlanta,581.69,581.69,1,[2099]
+12,2099,Electronics-Several,los angelos,1292.64,1292.64,1,[2099]
