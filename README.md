@@ -28,9 +28,9 @@ uv run python --version
 .\.venv\Scripts\activate
 ```
 
+## 3 Check your Setup/Machine
 
-
-### 3.2 Run Checks as You Work
+## 3.2 Run Checks as You Work
 
 
 1. Update dependencies (for security and compatibility).
@@ -65,13 +65,13 @@ For fully reproducible results, or when you need to use the local `.venv`, use `
 
 </details>
 
-### 3.3 Build Project Documentation
+## 3.3 Build Project Documentation
 
 Make sure you have current doc dependencies, then build your docs, fix any errors, and serve them locally to test.
 
 
 
-### 3.4 Execute
+## 3.4 Execute
 
 This project includes demo code.
 Run the demo Python modules to confirm everything is working.
@@ -100,7 +100,7 @@ If this works, your project is ready! If not, check:
 
 ---
 
-### 3.5 Git add-commit-push to GitHub
+## 3.5 Git add-commit-push to GitHub
 
 Anytime we make working changes to code is a good time to git add-commit-push to GitHub.
 
@@ -116,7 +116,7 @@ git push -u origin main
 
 This will trigger the GitHub Actions workflow and publish your documentation via GitHub Pages.
 
-### 3.6 Modify and Debug
+## 3.6 Modify and Debug
 
 With a working version safe in GitHub, start making changes to the code.
 
@@ -124,19 +124,19 @@ Before starting a new session, remember to do a `git pull` and keep your tools u
 
 Each time forward progress is made, remember to git add-commit-push.
 
-### 4 Add Raw Data
+## 4 Add Raw Data
 
 I added the raw data in csv files.
 
-### 5 Add to the data
+## 5 Add to the data
 
 I added errors to the data so that I could practice fixing them.
 
-### 6 Prepare the data
+## 6 Prepare the data
 
 I followed the format for preparing the data.
 
-### 7 Pre-Load Data Preparation
+## 7 Pre-Load Data Preparation
 
 I used the utils_scrubber.py to clean the data. I decided to make three additional python scripts in order to do this because I didn't want to erase work that I had already completed. I also wanted to be able to compare the two processes and I will be better able to do that if I have the original document to look over. The new files all have _scrub in them so that you can tell the difference.
 
@@ -144,7 +144,7 @@ I tried to pay close attention to the dtypes of each column so that they would b
 
 I also went ahead and changed the names to meet SQL standards.
 
-### 8 ETL to Databse
+## 8 ETL to Databse
 
 Organization
 1) The sales data table is the primary key and the customer and product tables are the foreign table.
@@ -157,38 +157,43 @@ Problems Encountered
 3) I kept receiving errors saying that there were duplicates in my table, when there shouldn't have been because of the pre-cleaning work that I did. This means there is either an error in my utils_scrubber.py file or in both of the files prep_customer_scrub.py and prep_sales_scrub.py.
 4) I used AI to change my code so that it removed duplicates as it loaded the database.
 
-### 9 Creating Visualizations
+## 9 Creating Visualizations
 
 I used Power BI to create visuals for the database. I focused mainly on sales data by date. Sadly, my sale date data was not accurate. So I used the joined date. In the real world I would not do this. I would go back to the original, raw data and complete the entire process again to have correct data. But since this is a class and the point was to learn the visuals, I decided to just work with the data that I had in the current database.
 
-9a: Initial Data and Slicing - We started by creating a new table of how much clients spent to identify our top clients. I created a bar graph showing how much our top clients spent and then added on a slicer so that it could be sorted by year.
+### 9a:Initial Data and Slicing
+We started by creating a new table of how much clients spent to identify our top clients. I created a bar graph showing how much our top clients spent and then added on a slicer so that it could be sorted by year.
 
 ![Data slicing  visualization](docs/images/slicing.png)
 
-9b: Dicing - I then created a matrix so that you could view the amount of sales sorted by an item's category and the location it was bought in. This would help a company identify trends across the country and per region.
+### 9b: Dicing
+I then created a matrix so that you could view the amount of sales sorted by an item's category and the location it was bought in. This would help a company identify trends across the country and per region.
 
 ![Data dicing visualization](docs/images/dicing.png)
 
-9c: Drilldow - I made a line graph showing the amount of sales over time. This would allow a company to match up sales trends with possible explanations. For example, they could line up a drop in prices with a minor recession in the country. They could identify the timelines of different promotions and see if they lined up with any increase in sales.
+### 9c: Drilldow
+I made a line graph showing the amount of sales over time. This would allow a company to match up sales trends with possible explanations. For example, they could line up a drop in prices with a minor recession in the country. They could identify the timelines of different promotions and see if they lined up with any increase in sales.
 
 ![Data Drilldown visualization](docs/images/drilldown.png)
 
-9d: Sales type visualization - The last step I did was to create a pie chart visualizing the types of sales, in store or online, to allow the business to know where they are getting the most of their revenue from and to help guide them in their future decisions about promotions.
+### 9d: Sales type visualization
+The last step I did was to create a pie chart visualizing the types of sales, in store or online, to allow the business to know where they are getting the most of their revenue from and to help guide them in their future decisions about promotions.
 
 ![Data Sales visualization](docs/images/sales_visualizations.png)
 
 
-### OLAP Project Design
-Section 1: The Business Goal:
+## 10: OLAP Project Design
+
+### Section 1: The Business Goal:
 The goal is to use the sales in each city, per month, to determine the stock each city needs. This is important because having too much stock of products that aren’t selling will make the city branch lose money, but not having enough stock in a city may cause the business to lose customers, and therefore revenue.
 
-Section 2: Data Source
+### Section 2: Data Source
 I started with a pre-computed cube. I took the product names from the products table, and the sales amount, sale date, and city name from the sales table. The product ID served as the key between the two tables. I then found the sum of the sales by product and by city to then find the average amount of sales per month.
 
-Section 3: Tools
+### Section 3: Tools
 I used vs code to create my precube and then Power BI to create my visualizations. I chose to create a precube to get more practice with coding, and I chose to make my visualizations with Power BI because I want to explore its capabilities more.
 
-Section 4: Workflow & Logic
+### Section 4: Workflow & Logic
 Description dimension: product name, city,
 Numeric metric: Sales amount, product ID, unit price
 Aggregations: Sum, average
@@ -198,10 +203,10 @@ Drilldown: from year to month
 
 
 
-Section 5: Results
+### Section 5: Results
 
-Section 6: Suggested Business Action
+### Section 6: Suggested Business Action
 
-Section 7: Challenges
+### Section 7: Challenges
 
-Had to use code in debug_code_file_path.md to figure out where it was trying to pull dataframe from, and change my pathways to match it. 
+Had to use code in debug_code_file_path.md to figure out where it was trying to pull dataframe from, and change my pathways to match it.
