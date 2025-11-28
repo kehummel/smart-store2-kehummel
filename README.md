@@ -188,7 +188,7 @@ The last step I did was to create a pie chart visualizing the types of sales, in
 The goal is to use the sales in each city, per month, to determine the stock each city needs. This is important because having too much stock of products that aren’t selling will make the city branch lose money, but not having enough stock in a city may cause the business to lose customers, and therefore revenue.
 
 ### Section 2: Data Source
-I started with a pre-computed cube. I took the product names from the products table, and the sales amount, sale date, and city name from the sales table. The product ID served as the key between the two tables. I then found the sum of the sales by product and by city to then find the average amount of sales per month.
+I started with a pre-computed cube using data from the smart_store.db. I took the product names from the products table, and the sales amount, sale date, and city name from the sales table. The product ID served as the key between the two tables. I then found the sum of the sales by product and by city to then find the average amount of sales per month.
 
 ### Section 3: Tools
 I used vs code to create my precube and then Power BI to create my visualizations. I chose to create a precube to get more practice with coding, and I chose to make my visualizations with Power BI because I want to explore its capabilities more.
