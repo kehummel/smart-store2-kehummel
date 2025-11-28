@@ -195,18 +195,37 @@ I used vs code to create my precube and then Power BI to create my visualization
 
 ### Section 4: Workflow & Logic
 Description dimension: product name, city,
-Numeric metric: Sales amount, product ID, unit price
+Numeric metric: Sales amount, product ID,
 Aggregations: Sum, average
 Slicing: by city
 Dicing: by sales and product
 Drilldown: from year to month
 
-
+While I included the sales amount, it was really for curiosity's sake and was not used in the results or suggested action plan. I wanted to break the sales down by item and city so that each city store would know how much of each item the should have in stock based on last year's sales.
 
 ### Section 5: Results
+I created two overview pages, so that you could look at sales for the whole company. I created a bar graph to gain understandings about the trends in sales for the whole company and per city. I created a matrix that could break down the sales per item for the whole company.
+
+![Total Sales Bar Graph](docs/images/bar_graph.png)
+
+![Total Sales Matrix](docs/images/overall_matrix.png)
+
+Then I broke it down by city. Each city/store got a different tab with its own matrix that showed them how much of each product they would need each month.
+
+![Chicago Matrix](docs/images/chicago.png)
+
+![Los Angeles Matrix](docs/images/los_angeles.png)
+
+![Philadelphia Matrix](docs/images/philadelphia.png)
+
+![Atlanta Matrix](docs/images/atlanta.png)
 
 ### Section 6: Suggested Business Action
+I would suggest that the business use their sales from the previous year to determine their stock for the current year. Based on the bar graph, their busiest months were in April and Decemeber. Stores should expect more sales during those months and possibly be ready with a little extra stock. They could purchase more stock than needed in April, hoping to increase their sales at an already high sales time, knowing they should have another busy month in December in which they can sell anything they overbought.
+
+What items sold in each store, especially during the different months, was varied. It would be better to do store specific promotions to reach specific customers as opposed to a company wide promotion. Company wide promotions would be hit or miss per store because their customer base varies per store. Whereas store specific promotions should equally reach all stores.
+
+Stores should look at possible promotions in the other months, but especially in August, to get more customers into the store. August had the least amount of sales for almost every store.
 
 ### Section 7: Challenges
-
-Had to use code in debug_code_file_path.md to figure out where it was trying to pull dataframe from, and change my pathways to match it.
+I struggled with creating the correct pathways to the folders and files. I had to use code in debug_code_file_path.md to figure out where the code was trying to pull dataframe from, and change my pathways to match it.
