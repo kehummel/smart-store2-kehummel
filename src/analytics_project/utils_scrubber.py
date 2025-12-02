@@ -219,15 +219,19 @@ class DataScrubber:
         except KeyError:
             raise ValueError(f"Column name '{column}' not found in the DataFrame.")
 
-    def remove_duplicate_records(self) -> pd.DataFrame:
-        """
-        Remove duplicate rows from the DataFrame.
+    def remove_duplicate_records(self, subset=None, keep='first') -> pd.DataFrame:
+        """Remove duplicate rows from the DataFrame.
+
+        Args:
+        subset: Column name or list of column names to consider for duplicates.
+                If None, uses all columns.
+        keep: Which duplicates to keep ('first', 'last', or False to remove all)
 
         Returns:
             pd.DataFrame: Updated DataFrame with duplicates removed.
 
         """
-        self.df = self.df.drop_duplicates()
+        self.df = self.df.drop_duplicates(subset=subset, keep='first')
         return self.df
 
     def rename_columns(self, column_mapping: Dict[str, str]) -> pd.DataFrame:

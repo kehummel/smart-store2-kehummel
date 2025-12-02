@@ -229,3 +229,8 @@ Stores should look at possible promotions in the other months, but especially in
 
 ### Section 7: Challenges
 I struggled with creating the correct pathways to the folders and files. I had to use code in debug_code_file_path.md to figure out where the code was trying to pull dataframe from, and change my pathways to match it.
+
+
+## Project 7
+
+I completed project 7 in my project_7 folder. I complete a separate README.md file as I tried to treat this project as though it was different from what we've done in previous modules to get practice in going through all of the steps again. Click on the project_7 folder and you will see the README_P7.md file. 

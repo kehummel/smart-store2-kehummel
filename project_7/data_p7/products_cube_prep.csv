@@ -3,7 +3,7 @@ product_id,product_name,category,unit_price,stock_quantity,purchase_type
 2001,Electronics-Be,clothing,412.35,7,In Store
 2003,Electronics-Training,clothing,385.18,5,In Store
 2005,Office-Huge,home,428.78,6,Online
-2006,Office-Class,clothing,198,2,In Store
+2006,Office-Class,clothing,198.0,2,In Store
 2007,Clothing-Over,electronics,583.39,1,on
 2008,Electronics-Skin,home,66.59,8,Online
 2009,Office-Raise,clothing,66.31,4,In Store
