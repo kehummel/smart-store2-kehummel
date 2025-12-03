@@ -3,6 +3,8 @@ scripts/project_7/scrub_customers.py
 
 This script reads customer data from the data/prepared folder and writes the cleaned version to the data_p7 folder.
 
+It originally came from Denise Case's smart-sales-raw-data file: https://github.com/denisecase/smart-sales-raw-data/blob/main/data/raw/customers_data.csv
+
 Tasks:
 - Remove duplicates
 - Ensure consistent formatting

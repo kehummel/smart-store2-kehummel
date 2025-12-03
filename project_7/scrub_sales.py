@@ -1,8 +1,9 @@
 """
 scripts/project_7/scrub_sales.py
 
-This script reads data from the data/raw folder, cleans the data,
-and writes the cleaned version to the data/prepared folder.
+This script reads data from the data/raw folder, cleans the data, and writes the cleaned version to the data_p7 folder.
+
+It originally came from Denise Case's smart-sales-raw-data file: https://github.com/denisecase/smart-sales-raw-data/blob/main/data/raw/sales_data.csv
 
 Tasks:
 - Remove duplicates

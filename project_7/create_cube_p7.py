@@ -1,3 +1,34 @@
+"""Project 7: Cubing Script.
+
+DIMENSION TABLES
+
+Sales Table
+    product ID - Primary Key
+    customer ID
+    Sales ID
+    sales amount
+    city name
+
+Products Table
+    Category
+    Product ID
+
+Customer Table
+    Customer ID
+    Join Date
+
+OUTPUT TABLE
+    Category
+    City
+    Year
+    Sales Amount
+    Sales Amount Sum
+    Sales Amount Mean
+    Sales Amount Count
+    Days Since Joined
+    Time Since Joined
+"""
+
 import pandas as pd
 import pathlib
 
