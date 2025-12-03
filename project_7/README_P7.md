@@ -99,15 +99,6 @@ There were two main things that I struggled with. The first one was creating the
 The second challenge I had was keeping myself focused while analyzing the data. While looking at the data and creating tables and graphs, I would notice different things and want to explore them or think about all of the different suggestions I could make to business. I had to really focus myself and continually ask myself if what I was looking at was going to help me answer the business goal or not.
 
 ## 8. Ethical Considerations
+The company needs to be careful that they do not breech their customers' data privacy. In this data set we had their first and last name. There wasn't any other personal information but if they are able to send out promotions then the company does have more personal information from their customers and they need to be mindful of this and make sure it is secure.
 
-
-Data Privacy – Protecting sensitive customer and business information
-Bias & Fairness – Ensuring AI models do not discriminate
-Transparency – Clearly explaining how BI decisions are made
-Accountability – Taking responsibility for data-driven decisions
-
-While AI enhances BI, over-reliance on AI can cause serious issues, such as:
-
-Lack of human oversight – AI may misinterpret trends, leading to bad business decisions
-Ethical concerns – AI might automate job roles, leading to workforce displacement
-Misinterpretation of context – AI lacks human judgment and can misinterpret data patterns
+This is analysis had lots of human oversight. I made the decision for every step of the process. However I can see how it would be easy to just run data through a code and run with it instead checking through it.
