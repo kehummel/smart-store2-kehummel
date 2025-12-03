@@ -63,9 +63,9 @@ I loaded my cube into Power BI and used charts and graphs to dissect the data mo
 ## 5. Results (narrative + visualizations)
 I used the data from the cube and visual representations to break down which city had the best and worst sales per category.I create two bar graphs, two line graphs, and a matrix.
 
-![All Graphs](docs/images/p7_tables.png)
+![All Graphs](../docs/images/p7_tables.png)
 
-![Project 7 Matrix](docs/images/p7_matrix.png)
+![Project 7 Matrix](../docs/images/p7_matrix.png)
 
 This allowed me to see that from 2000 to 2023, all category of sales had increased. It also showed me that from 2000 to 2023 sales in Atlanta, Chicago, and Philadelphia increased. For Los Angeles, sales increased from 2000 to 2022. In 2024 all sales in all cities and categories drastically decreased, which signals that there is either a problem with the data or an external factor out of the individual stores' control. For instance, this could be an incomplete data set for 2024, which would indicated a problem with the data. Otherwise I would look for an external factor or something going on within the company. If there was an economic recession, that could account for the drop in sales. Or if the company suffered from a PR mismanagement that might also account for the drop in sales.
 
